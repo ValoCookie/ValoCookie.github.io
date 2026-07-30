@@ -83,9 +83,9 @@ async function hydrateRelease(project) {
 
     // The source/build may be newer than the latest formal GitHub Release.
     // Avoid sending visitors to an old build while calling it "current".
-    setButtons(project.buttonIds, "View GitHub releases", project.fallback);
+    setButtons(project.buttonIds, `Get ${project.currentVersion}`, project.fallback);
   } catch (error) {
-    setButtons(project.buttonIds, "View GitHub releases", project.fallback);
+    setButtons(project.buttonIds, `Get ${project.currentVersion}`, project.fallback);
   }
 }
 
