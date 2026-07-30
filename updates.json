@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "generated_at": "2026-07-30T16:00:00Z",
+  "apps": {
+    "osuRequests": {
+      "display_name": "osu!Requests",
+      "version": "1.2.6",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases",
+      "notes": [
+        "Added automatic update notifications on startup.",
+        "Updates open through the official ValoCookie GitHub release.",
+        "You can remind yourself later or skip one version."
+      ],
+      "mandatory": false
+    },
+    "streamFlight": {
+      "display_name": "StreamFlight",
+      "version": "1.1.0",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases",
+      "notes": [
+        "Added automatic update notifications on startup.",
+        "Kept Stream Extras, stronger OBS detection and scrollable workspaces.",
+        "You can remind yourself later or skip one version."
+      ],
+      "mandatory": false
+    }
+  }
+}
