@@ -53,7 +53,7 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
 .section-head h2 { margin:8px 0 0; font-size:clamp(30px,4vw,46px); letter-spacing:-.045em; line-height:1.05; }
 .section-head p { max-width:440px; margin:0; color:var(--muted); }
 .product-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
-.product-card { position:relative; min-height:530px; padding:30px; overflow:hidden; border:1px solid var(--border); border-radius:var(--radius); background:linear-gradient(180deg,rgba(23,27,39,.96),rgba(15,18,27,.96)); box-shadow:var(--shadow); display:flex; flex-direction:column; }
+.product-card { position:relative; min-height:0; height:100%; padding:30px; overflow:hidden; border:1px solid var(--border); border-radius:var(--radius); background:linear-gradient(180deg,rgba(23,27,39,.96),rgba(15,18,27,.96)); box-shadow:var(--shadow); display:flex; flex-direction:column; box-sizing:border-box; }
 .product-card::before { content:""; position:absolute; inset:0 0 auto; height:3px; }
 .product-card.osu::before { background:linear-gradient(90deg,var(--pink),var(--purple)); }
 .product-card.flight::before { background:linear-gradient(90deg,var(--blue),var(--purple)); }
@@ -65,10 +65,10 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
 .product-card h3 { margin:24px 0 4px; font-size:36px; letter-spacing:-.045em; }
 .tagline { margin:0; font-weight:760; color:#e1deea; }
 .description { color:var(--muted); margin:18px 0 20px; }
-.feature-list { margin:0 0 4px; padding:0; list-style:none; }
+.feature-list { margin:0; padding:0; list-style:none; flex:0 0 auto; }
 .feature-list li { padding:8px 0 8px 26px; border-top:1px solid rgba(255,255,255,.05); position:relative; color:#d5d8e0; }
 .feature-list li::before { content:"✓"; position:absolute; left:2px; color:var(--purple-soft); font-weight:900; }
-.card-actions { margin-top:auto; padding-top:28px; display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap; }
+.card-actions { position:relative; z-index:2; flex:0 0 auto; margin-top:auto; padding-top:24px; display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap; border-top:1px solid rgba(255,255,255,.05); }
 .text-link { color:var(--muted); text-decoration:none; font-size:13px; font-weight:800; }
 .text-link:hover { color:var(--text); }
 .band { margin:10px auto 86px; padding:38px 40px; display:grid; grid-template-columns:.9fr 1.1fr; gap:46px; align-items:center; border:1px solid var(--border); border-radius:var(--radius); background:rgba(255,255,255,.025); }
@@ -98,5 +98,5 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
 .site-footer strong { display:block; color:var(--text); font-size:15px; }
 .site-footer a { text-decoration:none; font-weight:800; }
 .footer-links { display:flex; gap:16px; flex-wrap:wrap; }
-@media (max-width:860px) { .product-grid,.app-hero-grid,.detail-grid { grid-template-columns:1fr; } .section-head,.band { display:grid; grid-template-columns:1fr; gap:18px; } .product-card { min-height:520px; } .app-badge { max-width:520px; } }
-@media (max-width:580px) { .shell { width:min(100% - 26px,1140px); } .site-header { align-items:flex-start; padding:16px 0; } nav { justify-content:flex-end; gap:12px; } .brand-copy small { display:none; } .hero { padding-top:72px; } .hero-copy { font-size:16px; } .product-card { padding:22px; min-height:0; } .card-actions { flex-direction:column; align-items:stretch; padding-top:24px; } .text-link { text-align:center; } .band { padding:28px; } .site-footer { align-items:flex-start; flex-direction:column; } }
+@media (max-width:860px) { .product-grid,.app-hero-grid,.detail-grid { grid-template-columns:1fr; } .section-head,.band { display:grid; grid-template-columns:1fr; gap:18px; } .product-card { min-height:0; } .app-badge { max-width:520px; } }
+@media (max-width:580px) { .shell { width:min(100% - 26px,1140px); } .site-header { align-items:flex-start; padding:16px 0; } nav { justify-content:flex-end; gap:12px; } .brand-copy small { display:none; } .hero { padding-top:72px; } .hero-copy { font-size:16px; } .product-card { padding:22px; min-height:0; height:auto; } .card-actions { flex-direction:column; align-items:stretch; padding-top:24px; } .text-link { text-align:center; } .band { padding:28px; } .site-footer { align-items:flex-start; flex-direction:column; } }
