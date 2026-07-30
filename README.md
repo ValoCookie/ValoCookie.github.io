@@ -27,6 +27,6 @@ Current downloads are published through the official GitHub repositories and sur
 ## Current development versions
 
 - **osu!Requests:** v1.2.5
-- **StreamFlight:** v1.0.5
+- **StreamFlight:** v1.0.9
 
 The website shows these current development versions and only turns a button into a direct download when the matching GitHub Release has been published.

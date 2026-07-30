@@ -8,7 +8,7 @@ const projects = [
   },
   {
     repo: "ValoCookie/streamflight",
-    currentVersion: "v1.0.5",
+    currentVersion: "v1.0.9",
     statusIds: ["flight-status", "flight-status-detail"],
     buttonIds: ["flight-download", "flight-download-detail"],
     fallback: "https://github.com/ValoCookie/streamflight/releases"
