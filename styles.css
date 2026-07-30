@@ -27,7 +27,8 @@ a { color: inherit; }
 .shell { width: min(1140px, calc(100% - 40px)); margin-inline: auto; }
 .site-header { min-height:78px; display:flex; align-items:center; justify-content:space-between; gap:24px; border-bottom:1px solid rgba(255,255,255,.06); }
 .brand { display:flex; align-items:center; gap:12px; text-decoration:none; }
-.brand-mark { width:40px; height:40px; display:grid; place-items:center; border-radius:12px; background:linear-gradient(135deg,var(--purple),#6e51da); box-shadow:0 10px 30px rgba(143,99,255,.2); font-weight:950; letter-spacing:-.05em; }
+.brand-mark { width:42px; height:42px; display:grid; place-items:center; border-radius:13px; overflow:hidden; box-shadow:0 10px 30px rgba(143,99,255,.2); flex:0 0 auto; }
+.brand-mark img { width:100%; height:100%; display:block; object-fit:cover; }
 .brand-copy strong,.brand-copy small { display:block; }
 .brand-copy strong { font-size:15px; }
 .brand-copy small { color:var(--muted); font-size:12px; margin-top:-2px; }
@@ -35,6 +36,40 @@ nav { display:flex; gap:20px; align-items:center; flex-wrap:wrap; }
 nav a { color:var(--muted); text-decoration:none; font-size:14px; font-weight:750; }
 nav a:hover { color:var(--text); }
 .hero { padding:98px 0 86px; }
+.brand-banner {
+  position:relative;
+  height:clamp(170px,23vw,250px);
+  margin:0 auto 54px;
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:28px;
+  overflow:visible;
+  background:
+    linear-gradient(180deg,rgba(5,7,15,.06),rgba(5,7,15,.26)),
+    url("/assets/valocookie-banner.jpg") center/cover no-repeat;
+  box-shadow:0 24px 70px rgba(0,0,0,.28), inset 0 0 0 1px rgba(143,99,255,.05);
+}
+.brand-banner::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  background:linear-gradient(90deg,rgba(8,10,18,.22),transparent 42%,rgba(8,10,18,.06));
+  pointer-events:none;
+}
+.brand-banner-logo {
+  position:absolute;
+  left:50%;
+  bottom:0;
+  width:92px;
+  height:92px;
+  object-fit:cover;
+  border-radius:24px;
+  transform:translate(-50%,50%);
+  border:4px solid var(--bg);
+  box-shadow:0 16px 44px rgba(0,0,0,.42), 0 0 30px rgba(143,99,255,.26);
+  z-index:2;
+}
+
 .hero-center { text-align:center; }
 .eyebrow { color:var(--purple-soft); font-size:12px; font-weight:900; letter-spacing:.17em; text-transform:uppercase; }
 h1,h2,h3 { text-wrap:balance; }
@@ -100,3 +135,102 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
 .footer-links { display:flex; gap:16px; flex-wrap:wrap; }
 @media (max-width:860px) { .product-grid,.app-hero-grid,.detail-grid { grid-template-columns:1fr; } .section-head,.band { display:grid; grid-template-columns:1fr; gap:18px; } .product-card { min-height:0; } .app-badge { max-width:520px; } }
 @media (max-width:580px) { .shell { width:min(100% - 26px,1140px); } .site-header { align-items:flex-start; padding:16px 0; } nav { justify-content:flex-end; gap:12px; } .brand-copy small { display:none; } .hero { padding-top:72px; } .hero-copy { font-size:16px; } .product-card { padding:22px; min-height:0; height:auto; } .card-actions { flex-direction:column; align-items:stretch; padding-top:24px; } .text-link { text-align:center; } .band { padding:28px; } .site-footer { align-items:flex-start; flex-direction:column; } }
+
+@media (max-width:580px) {
+  .brand-banner { height:150px; margin-bottom:48px; border-radius:22px; }
+  .brand-banner-logo { width:78px; height:78px; border-radius:21px; }
+}
+
+/* v2.5 ValoCookie brand identity */
+.brand-mark {
+  overflow: hidden;
+  padding: 0;
+  background: #171126;
+  border: 1px solid rgba(179,154,255,.30);
+}
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transform: scale(1.12);
+}
+.brand-hero {
+  position: relative;
+  min-height: 510px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 74px 64px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(179,154,255,.16);
+  border-radius: 30px;
+  background: #090713;
+  box-shadow: 0 32px 90px rgba(0,0,0,.38), 0 0 60px rgba(118,74,255,.08);
+  isolation: isolate;
+}
+.brand-hero-art {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-image: url('assets/valocookie-banner.png');
+  background-position: center;
+  background-size: cover;
+  opacity: .92;
+}
+.brand-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(7,7,18,.94) 0%, rgba(9,8,23,.83) 38%, rgba(10,8,26,.35) 65%, rgba(8,7,18,.12) 100%);
+}
+.brand-hero-content {
+  width: min(610px, 58%);
+}
+.brand-hero h1 {
+  margin-top: 14px;
+  font-size: clamp(52px, 7vw, 82px);
+}
+.brand-hero .hero-copy {
+  margin: 0;
+  max-width: 580px;
+  color: #c3c7d5;
+}
+.brand-hero .hero-actions,
+.brand-hero .trust-row {
+  justify-content: flex-start;
+}
+.brand-hero .trust-row {
+  max-width: 600px;
+}
+@media (max-width: 860px) {
+  .brand-hero {
+    min-height: 500px;
+    padding: 58px 38px;
+  }
+  .brand-hero-content { width: 72%; }
+  .brand-hero::after {
+    background: linear-gradient(90deg, rgba(7,7,18,.95) 0%, rgba(9,8,23,.78) 52%, rgba(8,7,18,.28) 100%);
+  }
+}
+@media (max-width: 580px) {
+  .brand-hero {
+    min-height: 520px;
+    margin-top: 18px;
+    padding: 46px 24px;
+    border-radius: 22px;
+  }
+  .brand-hero-content { width: 100%; }
+  .brand-hero-art {
+    background-position: 70% center;
+    opacity: .72;
+  }
+  .brand-hero::after {
+    background: linear-gradient(180deg, rgba(7,7,18,.72) 0%, rgba(8,7,20,.88) 48%, rgba(7,7,18,.97) 100%);
+  }
+  .brand-hero .hero-actions,
+  .brand-hero .trust-row { justify-content: center; }
+  .brand-hero-content { text-align: center; }
+}
