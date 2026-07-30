@@ -1,18 +1,25 @@
-
 # ValoCookie Streamer Tools
 
-Home of **osu!Requests** and **StreamFlight**.
+Official website for **osu!Requests** and **StreamFlight**.
 
 🌐 https://valocookie.github.io
 
 ## Apps
 
 ### osu!Requests
-Twitch map-request management for osu!stable and osu!lazer.
+Windows Twitch map-request manager for **osu!stable** and **osu!lazer**, including queue controls, optional map filters, request history, requested mods, `!np`, and OBS browser-source overlays.
 
-https://github.com/ValoCookie/osu-Requests
+- Website: https://valocookie.github.io/osu-requests/
+- Project: https://github.com/ValoCookie/osu-Requests
 
 ### StreamFlight
-A Windows pre-stream workspace and health-check tool for streamers.
+Windows pre-stream workspace and health-check tool for OBS, Windows state, recording tests, checklists, and optional osu!Requests integration.
 
-https://github.com/ValoCookie/streamflight
+- Website: https://valocookie.github.io/streamflight/
+- Project: https://github.com/ValoCookie/streamflight
+
+## Distribution
+
+Current downloads are published through the official GitHub repositories and surfaced automatically on the website when a GitHub Release is available.
+
+© 2026 ValoCookie. All rights reserved.

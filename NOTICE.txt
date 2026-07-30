@@ -1,0 +1,5 @@
+ValoCookie Streamer Tools
+
+Copyright © 2026 ValoCookie. All rights reserved.
+
+The website source is publicly visible because it is deployed with GitHub Pages. Public visibility does not by itself grant permission to redistribute, repackage, or present ValoCookie software or branding as your own.
