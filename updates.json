@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-30T20:50:30.377118Z",
+  "generated_at": "2026-07-30T20:52:48.301908Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
@@ -11,7 +11,7 @@
         "ui changes (Pushing update as a TEST)"
       ],
       "mandatory": true,
-      "published_at": "2026-07-30T20:49:51.356481Z"
+      "published_at": "2026-07-30T20:52:48.300905Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
