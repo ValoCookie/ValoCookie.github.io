@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-06T04:01:40.458972Z",
+  "generated_at": "2026-08-06T12:30:00Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
@@ -8,10 +8,13 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.4.2",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.2/OsuRequests.exe",
       "notes": [
-        "new overlay for visualizer"
+        "Dedicated Key Visualizer, Ranked Tracker and App Startup pages",
+        "60 FPS key visualizer overlay with customizable Key 1, Key 2, mouse and trail colors",
+        "Expanded punctuation bindings and cumulative total press counter",
+        "Classic installer workflow retained"
       ],
       "mandatory": true,
-      "published_at": "2026-08-06T04:01:40.458972Z"
+      "published_at": "2026-08-06T12:30:00Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -19,10 +22,12 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.1",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.1/StreamPreflight.exe",
       "notes": [
-        "ui changes (Pushing update as a TEST)"
+        "Updated preflight workspace and application management",
+        "Improved background helper access and startup flow",
+        "Refined interface and checklist workflow"
       ],
       "mandatory": true,
-      "published_at": "2026-07-30T20:50:30.377118Z"
+      "published_at": "2026-07-30T20:50:30Z"
     }
   }
 }
