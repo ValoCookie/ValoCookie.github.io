@@ -1,16 +1,14 @@
 const projects = [
   {
-    key: "osuRequests",
     repo: "ValoCookie/osu-Requests",
-    defaultVersion: "1.2.6",
+    currentVersion: "v1.4.2",
     statusIds: ["osu-status", "osu-status-detail"],
     buttonIds: ["osu-download", "osu-download-detail"],
     fallback: "https://github.com/ValoCookie/osu-Requests/releases"
   },
   {
-    key: "streamFlight",
     repo: "ValoCookie/streamflight",
-    defaultVersion: "1.1.0",
+    currentVersion: "v1.1.1",
     statusIds: ["flight-status", "flight-status-detail"],
     buttonIds: ["flight-download", "flight-download-detail"],
     fallback: "https://github.com/ValoCookie/streamflight/releases"
@@ -37,11 +35,6 @@ function normalizeVersion(value) {
     .replace(/^v/, "");
 }
 
-function withV(value) {
-  const clean = normalizeVersion(value);
-  return clean ? `v${clean}` : "";
-}
-
 function setText(ids, text) {
   ids.forEach((id) => {
     const el = document.getElementById(id);
@@ -58,62 +51,45 @@ function setButtons(ids, text, href) {
   });
 }
 
-async function fetchManifest() {
-  try {
-    const response = await fetch(`/updates.json?_=${Date.now()}`, {
-      cache: "no-store",
-      headers: { Accept: "application/json" },
-    });
-    if (!response.ok) throw new Error(`Manifest ${response.status}`);
-    const manifest = await response.json();
-    return manifest?.apps || {};
-  } catch (_error) {
-    return {};
-  }
-}
-
-async function hydrateRelease(project, manifestApps) {
-  const manifestEntry = manifestApps[project.key] || {};
-  const version = normalizeVersion(manifestEntry.version || project.defaultVersion);
-  const displayVersion = withV(version);
-  const releaseUrl = manifestEntry.release_url || project.fallback;
-  const manifestDownload = manifestEntry.download_url || "";
-
-  setText(project.statusIds, `Current build ${displayVersion}`);
-
-  // The Release Manager writes a direct asset URL only after the upload
-  // succeeds. When present, this is the fastest and most reliable path.
-  if (manifestDownload && manifestDownload !== releaseUrl) {
-    setButtons(project.buttonIds, `Download ${displayVersion}`, manifestDownload);
-    return;
-  }
+async function hydrateRelease(project) {
+  // Always show the actual current development version on the website.
+  setText(project.statusIds, `Latest release: ${project.currentVersion}`);
 
   try {
     const response = await fetch(
       `https://api.github.com/repos/${project.repo}/releases/latest`,
       { headers: { Accept: "application/vnd.github+json" } }
     );
+
     if (!response.ok) throw new Error(`GitHub API ${response.status}`);
 
     const release = await response.json();
     const releaseVersion = release.tag_name || release.name || "";
     const asset = preferredAsset(release);
 
-    if (normalizeVersion(releaseVersion) === version && asset) {
-      setButtons(project.buttonIds, `Download ${displayVersion}`, asset.browser_download_url);
+    // Only label the button as a direct download when GitHub's latest
+    // published Release matches the version advertised by the site.
+    if (
+      normalizeVersion(releaseVersion) === normalizeVersion(project.currentVersion) &&
+      asset
+    ) {
+      setButtons(
+        project.buttonIds,
+        `Download ${project.currentVersion}`,
+        asset.browser_download_url
+      );
       return;
     }
-  } catch (_error) {
-    // Fall through to the official release page.
-  }
 
-  setButtons(project.buttonIds, `Get ${displayVersion}`, releaseUrl || project.fallback);
+    // The source/build may be newer than the latest formal GitHub Release.
+    // Avoid sending visitors to an old build while calling it "current".
+    setButtons(project.buttonIds, `Get ${project.currentVersion}`, project.fallback);
+  } catch (error) {
+    setButtons(project.buttonIds, `Get ${project.currentVersion}`, project.fallback);
+  }
 }
 
-(async function hydrateSite() {
-  const manifestApps = await fetchManifest();
-  projects.forEach((project) => hydrateRelease(project, manifestApps));
-})();
+projects.forEach(hydrateRelease);
 
 document.querySelectorAll("[data-year]").forEach((el) => {
   el.textContent = new Date().getFullYear();

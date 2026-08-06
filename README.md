@@ -2,36 +2,28 @@
 
 Official website for **osu!Requests** and **StreamFlight**.
 
-🌐 https://valocookie.github.io
+🌐 https://valocookie.github.io/
 
 ## Apps
 
-### osu!Requests
-Windows Twitch map-request manager for **osu!stable** and **osu!lazer**, including queue controls, optional map filters, request history, requested mods, `!np`, and OBS browser-source overlays.
+### osu!Requests — v1.4.2
+
+Windows Twitch map-request manager for **osu!stable** and **osu!lazer**. It includes queue and review controls, optional map filters, OBS browser-source overlays, a customizable 60 FPS Key Visualizer, cumulative input totals, and a dedicated Ranked Play Tracker.
 
 - Website: https://valocookie.github.io/osu-requests/
-- Project: https://github.com/ValoCookie/osu-Requests
+- Repository: https://github.com/ValoCookie/osu-Requests
+- Releases: https://github.com/ValoCookie/osu-Requests/releases
 
-### StreamFlight
-Windows pre-stream workspace and health-check tool for OBS, Windows state, recording tests, checklists, and optional osu!Requests integration.
+### StreamFlight — v1.1.1
+
+Windows pre-stream workspace for ordered application startup, optional delays, background helpers, websites, reusable checklists, profiles, readiness checks, and end-of-session cleanup.
 
 - Website: https://valocookie.github.io/streamflight/
-- Project: https://github.com/ValoCookie/streamflight 
+- Repository: https://github.com/ValoCookie/streamflight
+- Releases: https://github.com/ValoCookie/streamflight/releases
 
 ## Distribution
 
-Current downloads are published through the official GitHub repositories and surfaced automatically on the website when a GitHub Release is available.
+Downloads are published through the official GitHub repositories. The website checks GitHub Releases and links visitors to the matching current release.
 
 © 2026 ValoCookie. All rights reserved.
-
-## Current development versions
-
-- **osu!Requests:** v1.2.6
-- **StreamFlight:** v1.1.0
-
-The website shows these current development versions and only turns a button into a direct download when the matching GitHub Release has been published.
-
-
-## Update manifest
-
-`updates.json` is the public source of truth used by osu!Requests, StreamFlight and the website version buttons. It is updated by the private ValoCookie Release Manager after a release asset uploads successfully.
