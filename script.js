@@ -1,14 +1,14 @@
 const projects = [
   {
     repo: "ValoCookie/osu-Requests",
-    currentVersion: "v1.4.2",
+    currentVersion: "v1.2.5",
     statusIds: ["osu-status", "osu-status-detail"],
     buttonIds: ["osu-download", "osu-download-detail"],
     fallback: "https://github.com/ValoCookie/osu-Requests/releases"
   },
   {
     repo: "ValoCookie/streamflight",
-    currentVersion: "v1.1.1",
+    currentVersion: "v1.0.5",
     statusIds: ["flight-status", "flight-status-detail"],
     buttonIds: ["flight-download", "flight-download-detail"],
     fallback: "https://github.com/ValoCookie/streamflight/releases"
@@ -53,7 +53,7 @@ function setButtons(ids, text, href) {
 
 async function hydrateRelease(project) {
   // Always show the actual current development version on the website.
-  setText(project.statusIds, `Latest release: ${project.currentVersion}`);
+  setText(project.statusIds, `Current build ${project.currentVersion}`);
 
   try {
     const response = await fetch(
