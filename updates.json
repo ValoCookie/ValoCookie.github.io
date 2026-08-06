@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-06T12:43:00Z",
+  "generated_at": "2026-08-06T15:34:01Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
@@ -9,8 +9,8 @@
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.2/OsuRequests.exe",
       "notes": [
         "60 FPS Key Visualizer with independently customizable key, mouse and trail colors",
-        "Cumulative input total and dedicated Ranked Play Tracker",
-        "Dedicated Key Visualizer and App Startup-style settings workflow"
+        "Background keyboard and mouse capture with adjustable trails",
+        "Cumulative input total and a dedicated Ranked Play Tracker"
       ],
       "mandatory": true,
       "published_at": "2026-08-06T04:01:40Z"
@@ -21,9 +21,9 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.1",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.1/StreamPreflight.exe",
       "notes": [
-        "Ordered application startup, websites and reusable checklists",
-        "Background helper hiding and access hotkeys",
-        "Profiles, readiness status and end-session cleanup"
+        "Ordered application startup with optional delays and a dedicated App Startup workspace",
+        "Background helper hiding with global access hotkeys",
+        "Profiles, websites, reusable checklists, readiness status and end-session cleanup"
       ],
       "mandatory": true,
       "published_at": "2026-07-30T20:50:30Z"
