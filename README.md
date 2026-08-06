@@ -20,7 +20,7 @@ Windows pre-stream workspace for ordered application startup, optional delays, b
 
 - Website: https://valocookie.github.io/streamflight/
 - Repository: https://github.com/ValoCookie/streamflight
-- Releases: https://github.com/ValoCookie/streamflight/releases 
+- Releases: https://github.com/ValoCookie/streamflight/releases
 
 ## Publishing
 
