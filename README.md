@@ -16,7 +16,7 @@ Windows Twitch map-request manager for **osu!stable** and **osu!lazer**, includi
 Windows pre-stream workspace and health-check tool for OBS, Windows state, recording tests, checklists, and optional osu!Requests integration.
 
 - Website: https://valocookie.github.io/streamflight/
-- Project: https://github.com/ValoCookie/streamflight
+- Project: https://github.com/ValoCookie/streamflight 
 
 ## Distribution
 
