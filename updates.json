@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-06T02:24:17.652560Z",
+  "generated_at": "2026-08-06T02:31:56.862865Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
@@ -8,10 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.3.4",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.3.4/OsuRequests.exe",
       "notes": [
-        "Ranked Tracker + Visualizer Overlay (+other fixes)"
+        "testing"
       ],
       "mandatory": true,
-      "published_at": "2026-08-06T02:24:17.652560Z"
+      "published_at": "2026-08-06T02:31:56.862865Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
