@@ -1,19 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-06T15:34:01Z",
+  "generated_at": "2026-08-06T20:23:51.184131Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
-      "version": "1.4.2",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.4.2",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.2/OsuRequests.exe",
+      "version": "1.4.6",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.4.6",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.6/OsuRequests.exe",
       "notes": [
-        "60 FPS Key Visualizer with independently customizable key, mouse and trail colors",
-        "Background keyboard and mouse capture with adjustable trails",
-        "Cumulative input total and a dedicated Ranked Play Tracker"
+        "A BUNCH OF SHIT"
       ],
       "mandatory": true,
-      "published_at": "2026-08-06T04:01:40Z"
+      "published_at": "2026-08-06T20:23:51.184131Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
