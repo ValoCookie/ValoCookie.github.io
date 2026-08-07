@@ -4,7 +4,7 @@ const projects = [
   {
     key: "osuRequests",
     repo: "ValoCookie/osu-Requests",
-    exactAsset: /^OsuRequests\.exe$/i,
+    exactAsset: /^(?:osuStreamDeck|OsuRequests)\.exe$/i,
     statusIds: ["osu-status", "osu-status-detail"],
     buttonIds: ["osu-download", "osu-download-detail"],
     fallback: "https://github.com/ValoCookie/osu-Requests/releases"

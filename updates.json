@@ -3,12 +3,12 @@
   "generated_at": "2026-08-07T01:50:00Z",
   "apps": {
     "osuRequests": {
-      "display_name": "CookieDeck",
+      "display_name": "osuStreamDeck",
       "version": "1.5.0",
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.0",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.0/CookieDeck.exe",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.0/osuStreamDeck.exe",
       "notes": [
-        "CookieDeck rebrand",
+        "osuStreamDeck rebrand",
         "Expanded osu! Overlays suite",
         "Customizable transparent OBS overlays"
       ],
