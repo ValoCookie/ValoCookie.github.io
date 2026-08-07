@@ -6,9 +6,9 @@ Official GitHub Pages website for **osu!Requests** and **StreamFlight**.
 
 ## Apps
 
-### osu!Requests — v1.4.2
+### osu!Requests — v1.4.20
 
-Windows Twitch map-request manager for **osu!stable** and **osu!lazer**. It includes queue and review controls, optional map filters, OBS browser-source overlays, a customizable 60 FPS Key Visualizer, background keyboard and mouse capture, independent input and trail colors, cumulative input totals, and a dedicated Ranked Play Tracker.
+Windows Twitch → osu! request manager and stream-side toolkit for **osu!stable** and **osu!lazer**. Current public features include queue/review controls, optional map filters, OBS browser-source overlays, `!np`, viewer `!myq`, editable `!skin` output and links, a 60 FPS Key Visualizer with live BPM/MAX BPM and horizontal/vertical layouts, and a Ranked Play overlay with profile stats, live refresh and transparent-background mode. Packaged builds also support in-place portable EXE updates.
 
 - Website: https://valocookie.github.io/osu-requests/
 - Repository: https://github.com/ValoCookie/osu-Requests
@@ -28,6 +28,6 @@ The site is a static GitHub Pages project. Publish from the `main` branch and `/
 
 ## Distribution
 
-Downloads are published through the official GitHub repositories. The website checks GitHub Releases and links visitors to a matching current asset when available, with the repository Releases page as a safe fallback.
+Downloads are published through the official GitHub repositories. The website checks GitHub Releases and links visitors to a matching current asset when available, with the repository Releases page as a safe fallback. `updates.json` is also the public update manifest used by the desktop applications.
 
 © 2026 ValoCookie. All rights reserved.
