@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-07T00:54:44.069855Z",
+  "generated_at": "2026-08-07T01:41:52.303210Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
-      "version": "1.4.21",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.4.21",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.21/OsuRequests.exe",
+      "version": "1.5.0",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.0",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.0/OsuRequests.exe",
       "notes": [
-        "E"
+        "a bunch of overlays"
       ],
       "mandatory": true,
-      "published_at": "2026-08-07T00:54:44.069855Z"
+      "published_at": "2026-08-07T01:41:52.303210Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
