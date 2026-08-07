@@ -1,17 +1,19 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-07T02:51:48.522722Z",
+  "generated_at": "2026-08-07T01:50:00Z",
   "apps": {
     "osuRequests": {
-      "display_name": "osu!Requests",
+      "display_name": "CookieDeck",
       "version": "1.5.0",
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.0",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.0/osuStreamDeck.exe",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.0/CookieDeck.exe",
       "notes": [
-        "New App Name + QoL updates"
+        "CookieDeck rebrand",
+        "Expanded osu! Overlays suite",
+        "Customizable transparent OBS overlays"
       ],
-      "mandatory": true,
-      "published_at": "2026-08-07T02:51:48.522722Z"
+      "mandatory": false,
+      "published_at": "2026-08-07T01:50:00Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -19,9 +21,9 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.1",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.1/StreamPreflight.exe",
       "notes": [
-        "Ordered application startup with optional delays and a dedicated App Startup workspace",
-        "Background helper hiding with global access hotkeys",
-        "Profiles, websites, reusable checklists, readiness status and end-session cleanup"
+        "Ordered application startup",
+        "Background helpers and profiles",
+        "Reusable pre-stream workflow"
       ],
       "mandatory": true,
       "published_at": "2026-07-30T20:50:30Z"
