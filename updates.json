@@ -1,21 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-07T00:17:24.037123Z",
+  "generated_at": "2026-08-07T00:54:44.069855Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!Requests",
-      "version": "1.4.20",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.4.20",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.20/OsuRequests.exe",
+      "version": "1.4.21",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.4.21",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.4.21/OsuRequests.exe",
       "notes": [
-        "Ranked Play live refresh and transparent OBS background mode",
-        "Editable !skin display names and optional links for stable/lazer",
-        "Key Visualizer live BPM / MAX BPM, dual-input correction, and horizontal/vertical layouts",
-        "Portable in-place EXE updater improvements",
-        "Viewer !myq queue command and recent request/overlay refinements"
+        "E"
       ],
       "mandatory": true,
-      "published_at": "2026-08-07T00:17:24.037123Z"
+      "published_at": "2026-08-07T00:54:44.069855Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
