@@ -3,7 +3,7 @@
 const projects = [
   {
     repo: "ValoCookie/osu-Requests",
-    currentVersion: "v1.4.2",
+    currentVersion: "v1.4.20",
     statusIds: ["osu-status", "osu-status-detail"],
     buttonIds: ["osu-download", "osu-download-detail"],
     fallback: "https://github.com/ValoCookie/osu-Requests/releases"
@@ -26,6 +26,7 @@ function preferredAsset(release) {
   const files = release.assets.filter((asset) => asset?.name && !/checksum|sha256/i.test(asset.name));
   return files.find((asset) => /setup.*\.exe$/i.test(asset.name))
     || files.find((asset) => /installer.*\.exe$/i.test(asset.name))
+    || files.find((asset) => /^OsuRequests\.exe$/i.test(asset.name))
     || files.find((asset) => /\.exe$/i.test(asset.name))
     || files.find((asset) => /\.zip$/i.test(asset.name))
     || null;
@@ -65,7 +66,7 @@ async function hydrateRelease(project) {
       setButtons(project.buttonIds, `Download ${project.currentVersion}`, asset.browser_download_url);
     }
   } catch {
-    // The release-page fallback remains usable when the GitHub API is unavailable or rate-limited.
+    // Keep the Releases-page fallback when GitHub API is unavailable or rate-limited.
   }
 }
 
