@@ -1,46 +1,135 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0d14">
-  <meta name="description" content="osu!Requests is a Windows Twitch map request manager for osu!stable and osu!lazer with ranked tracking, a customizable 60 FPS Key Visualizer and OBS overlays.">
-  <meta name="robots" content="index,follow"><link rel="canonical" href="https://valocookie.github.io/osu-requests/">
-  <meta property="og:title" content="osu!Requests — Twitch requests, visualizer and ranked tools"><meta property="og:description" content="Twitch osu! map requests, customizable 60 FPS Key Visualizer, ranked play tracker and OBS overlays for Windows."><meta property="og:url" content="https://valocookie.github.io/osu-requests/"><meta property="og:type" content="website">
-  <title>osu!Requests — Twitch Requests, Key Visualizer & Ranked Tracker</title><link rel="icon" href="../assets/favicon.png" type="image/png"><link rel="stylesheet" href="../styles.css?v=3.2">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d14">
+  <meta name="description" content="osu!Requests is a Windows Twitch map-request manager for osu!stable and osu!lazer with OBS overlays, live BPM visualization, editable skin commands, self-updating and Ranked Play tracking.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://valocookie.github.io/osu-requests/">
+  <meta property="og:title" content="osu!Requests — Twitch requests, visualizer and Ranked Play tools">
+  <meta property="og:description" content="Twitch osu! map requests, a customizable Key Visualizer with live BPM, dual-client skin commands, Ranked Play tracking and OBS overlays for Windows.">
+  <meta property="og:url" content="https://valocookie.github.io/osu-requests/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://valocookie.github.io/assets/valocookie-banner.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>osu!Requests — Twitch Requests, Key Visualizer &amp; Ranked Tracker</title>
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=3.4-auto-releases">
 </head>
 <body>
-<header class="site-header shell"><a class="brand" href="/"><span class="brand-mark"><img src="/assets/valocookie-logo-128.png" alt="" aria-hidden="true"></span><span class="brand-copy"><strong>ValoCookie</strong><small>Streamer tools</small></span></a><nav><a href="/">Home</a><a href="/streamflight/">StreamFlight</a><a href="https://github.com/ValoCookie/osu-Requests" target="_blank" rel="noreferrer">GitHub</a></nav></header>
-<main>
-<section class="app-hero shell"><div class="app-hero-grid"><div><div class="eyebrow">TWITCH → osu!</div><h1>osu!Requests</h1><p class="hero-copy">A Windows <span class="keyword">Twitch request manager and stream-side osu! toolkit</span> for organizing beatmaps, driving OBS overlays, visualizing live tap speed, exposing editable skin links and keeping Ranked Play information close at hand.</p><div class="hero-actions"><a class="button button-primary" id="osu-download-detail" href="https://github.com/ValoCookie/osu-Requests/releases" target="_blank" rel="noreferrer">Download v1.4.2</a><a class="button button-secondary" href="https://github.com/ValoCookie/osu-Requests" target="_blank" rel="noreferrer">Project page</a></div></div><aside class="app-badge"><div class="eyebrow">LATEST RELEASE</div><div class="giant">osu!</div><span class="release-chip" id="osu-status-detail">Version 1.4.2 available</span><p>For Windows · stable + lazer</p></aside></div></section>
+  <header class="site-header shell">
+    <a class="brand" href="/" aria-label="ValoCookie home"><span class="brand-mark"><img src="/assets/valocookie-logo-128.png" alt=""></span><span class="brand-copy"><strong>ValoCookie</strong><small>Streamer tools</small></span></a>
+    <nav aria-label="Main navigation"><a href="/">Home</a><a href="/streamflight/">StreamFlight</a><a href="https://github.com/ValoCookie/osu-Requests" target="_blank" rel="noreferrer">GitHub</a></nav>
+  </header>
 
-<section class="section shell"><div class="section-head"><div><div class="eyebrow">REQUEST MANAGEMENT</div><h2>Viewer requests without the copy-paste circus.</h2></div><p>Turn Twitch beatmap links into an organized queue with map data, request rules and controls built for the streamer.</p></div><div class="detail-grid">
-<article class="detail-card"><h3>Queue & review</h3><p>Open or close requests, set queue and per-viewer limits, review maps before they enter the active queue and retain session history.</p></article>
-<article class="detail-card"><h3>Optional map filters</h3><p>Set Min/Max limits for PP, length, BPM, AR, CS and OD—or leave any filter blank when you do not want that restriction.</p></article>
-<article class="detail-card"><h3>Requested mods</h3><p>Keep requested mods attached to each map so the original request does not get lost between chat and gameplay.</p></article>
-<article class="detail-card"><h3>Request overlays</h3><p>Add Current Map, Compact Queue and Map Requests Open as independent OBS Browser Sources with customizable size, opacity, alignment and positioning.</p></article>
-<article class="detail-card"><h3>!np + !myq</h3><p>Let viewers see the current/recent map with <strong>!np</strong> and their own queued requests with <strong>!myq</strong>.</p></article>
-<article class="detail-card"><h3>Editable !skin command</h3><p>Keep separate stable/lazer skin names and optional links, while the app still marks the currently running client automatically.</p></article>
-</div></section>
+  <main>
+    <section class="app-hero shell">
+      <div class="app-hero-grid">
+        <div>
+          <div class="eyebrow">Twitch → osu!</div>
+          <h1>osu!Requests</h1>
+          <p class="hero-copy">A Windows <span class="keyword">Twitch request manager and stream-side osu! toolkit</span> for organizing beatmaps, driving OBS overlays, visualizing inputs and tap speed, showing current skins and keeping Ranked Play information live.</p>
+          <div class="hero-actions"><a class="button button-primary" id="osu-download-detail" href="https://github.com/ValoCookie/osu-Requests/releases" target="_blank" rel="noreferrer">Download latest</a><a class="button button-secondary" href="https://github.com/ValoCookie/osu-Requests" target="_blank" rel="noreferrer">Project page</a></div>
+        </div>
+        <aside class="app-badge"><div class="eyebrow">Latest release</div><div class="giant">osu!</div><span class="release-chip" id="osu-status-detail">Latest release</span><p>For Windows · osu!stable + osu!lazer</p></aside>
+      </div>
+    </section>
 
-<section class="section shell"><div class="section-head"><div><div class="eyebrow">KEY VISUALIZER</div><h2>A smooth, customizable input overlay for osu! streams.</h2></div><p>Run the visualizer as its own OBS Browser Source and style each input independently.</p></div><div class="detail-grid">
-<article class="detail-card"><h3>60 FPS overlay</h3><p>The browser overlay targets roughly 60 frames per second for smoother key presses and trails.</p></article>
-<article class="detail-card"><h3>Independent press colors</h3><p>Customize Key 1 and Key 2 separately, with optional individual colors for Mouse 1 and Mouse 2.</p></article>
-<article class="detail-card"><h3>Live BPM / MAX BPM</h3><p>Show current stream speed while tapping consistently, then retain the fastest sustained session speed as MAX BPM. There is no artificial BPM ceiling.</p></article>
-<article class="detail-card"><h3>Horizontal or vertical</h3><p>Switch the overlay layout and trail direction to fit compact horizontal bars or traditional vertical visualizers in OBS.</p></article>
-<article class="detail-card"><h3>Background capture</h3><p>Capture supported letters, numbers, punctuation, arrows, modifiers and mouse buttons while the app is minimized.</p></article>
-<article class="detail-card"><h3>Accurate combined inputs</h3><p>The speed calculation handles one-key streams and simultaneous/dual-input tapping without undercounting the combined tap rate.</p></article>
-</div></section>
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Request management</div><h2>Viewer requests without the copy-paste circus.</h2></div><p>Turn Twitch beatmap links into an organized queue with map data, request rules and controls built for the streamer.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>Queue &amp; review</h3><p>Open or close requests, set queue and per-viewer limits, review maps before they enter the active queue and keep session history.</p></article>
+        <article class="detail-card"><h3>Optional map filters</h3><p>Set Min/Max limits for PP, stars, length, BPM, AR, CS and OD, plus status and mode restrictions—or leave filters blank when you do not want them.</p></article>
+        <article class="detail-card"><h3>Requested mods</h3><p>Requested mods stay attached to the map. When the request is delivered in osu! chat, NoMod stays clean with no NM label, while modded requests show only the actual mods such as HD, DT or HDDT—without the old Suggested prefix.</p></article>
+        <article class="detail-card"><h3>Reply / @mention safe</h3><p>Beatmap links are still recognized when Twitch prepends a reply mention or invisible formatting, while the actual sender remains the requester.</p></article>
+        <article class="detail-card"><h3>Personal queue — !myq</h3><p>Viewers can check their own active requests, queue usage and how many more maps they can submit under the current limits.</p></article>
+        <article class="detail-card"><h3>Queue history</h3><p>Opened requests stay available in History so older maps can be revisited without corrupting the active queue.</p></article>
+      </div>
+    </section>
 
-<section class="section shell"><div class="section-head"><div><div class="eyebrow">RANKED PLAY</div><h2>Ranked tracking without another separate utility.</h2></div><p>The Ranked Play Tracker has its own dedicated screen, persistent Save and Refresh controls, and sits alongside the request and overlay tools.</p></div></section>
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Now Playing</div><h2>Keep chat synced with what is actually selected.</h2></div><p>The current-map system is not limited to maps opened from the request queue.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>!np</h3><p>Chat can request the current / most recently selected map, with difficulty, stars, requested mods and the map link when available.</p></article>
+        <article class="detail-card"><h3>Song Select support</h3><p>osu!stable selection and preview events can update !np before gameplay starts, including maps manually selected outside the queue.</p></article>
+        <article class="detail-card"><h3>Startup restore</h3><p>A bounded recent-log scan can restore the newest known selection when osu! is already running before osu!Requests launches.</p></article>
+      </div>
+    </section>
 
-<section class="section shell"><div class="section-head"><div><div class="eyebrow">COMMON QUESTIONS</div><h2>Quick answers.</h2></div></div><div class="faq">
-<details><summary>Does the Key Visualizer work while the app is minimized?</summary><p>Yes. Supported keyboard and mouse bindings are captured in the background for the browser overlay.</p></details>
-<details><summary>Can each key and trail use a different color?</summary><p>Yes. Key 1, Key 2, optional mouse inputs and the trail color are independently customizable.</p></details>
-<details><summary>Does the total reset every second?</summary><p>No. It is cumulative and resets only through Reset Counters or when the application restarts.</p></details>
-<details><summary>Can I use the visualizer with the request overlays?</summary><p>Yes. They are separate Browser Sources, so you can use one or several together.</p></details>
-        <details><summary>Can the skin command include links?</summary><p>Yes. Stable and lazer can each have an editable display name and an optional URL.</p></details>
-        <details><summary>Does the updater create another EXE?</summary><p>The portable updater is designed to stage the new build in Windows TEMP, briefly restart the app, replace the exact running OsuRequests.exe path, and reopen that same EXE.</p></details>
-</div></section>
-<section class="band shell"><div><div class="eyebrow">ALSO FROM VALOCOOKIE</div><h2>Want the rest of the stream prepared too?</h2></div><p><a class="text-link" href="/streamflight/">StreamFlight</a> organizes applications, websites, recurring checks and background helpers before going live.</p></section>
-</main>
-<footer class="site-footer shell"><div><strong>osu!Requests by ValoCookie</strong><span>© <span data-year>2026</span> ValoCookie. All rights reserved.</span></div><div class="footer-links"><a href="/">Home</a><a href="https://github.com/ValoCookie/osu-Requests/issues" target="_blank" rel="noreferrer">Report a bug</a></div></footer><script src="../script.js?v=3.2"></script>
-</body></html>
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Current Skin</div><h2>Tell chat which skin is actually active.</h2></div><p>Stable and lazer are handled separately, with conservative name detection so the app does not invent a custom skin name.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>Dual-client !skin</h3><p>Report the selected osu!stable and/or osu!lazer skin in one response and automatically mark a detected running client.</p></article>
+        <article class="detail-card"><h3>Editable names &amp; links</h3><p>Keep automatic detection or override the chat-facing name and attach an HTTP/HTTPS skin link independently for stable and lazer.</p></article>
+        <article class="detail-card"><h3>Broadcaster !setskin</h3><p>Change a display name or link from Twitch chat, return to automatic detection with <strong>auto</strong>, or clear an override without editing Python.</p></article>
+        <article class="detail-card"><h3>Accurate custom lazer names</h3><p>Uses exact metadata pairs, verified local data or optional tosu v2 integration. If a name cannot be proven, it simply reports Custom skin.</p></article>
+        <article class="detail-card"><h3>Skin source controls</h3><p>Choose whether stable, lazer or both appear in !skin, open the selected stable skin folder, and open lazer storage from Preferences.</p></article>
+        <article class="detail-card"><h3>Manual lazer fallback</h3><p>Name the current lazer skin once for a specific GUID when that local Realm layout cannot be resolved safely.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">OBS request overlays</div><h2>Use only the stream elements you want.</h2></div><p>Request information is exposed as separate local Browser Sources so each element can be positioned and styled independently.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>Current Map</h3><p>Show the current requested / selected map information as its own Browser Source.</p></article>
+        <article class="detail-card"><h3>Compact Queue</h3><p>Keep upcoming requests visible without giving the queue an entire scene.</p></article>
+        <article class="detail-card"><h3>Requests Open</h3><p>Expose the current request-open status separately so it can live wherever it fits your layout.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Key Visualizer</div><h2>Inputs, trails and real tap speed in one overlay.</h2></div><p>Run the visualizer as its own OBS Browser Source with background capture and flexible stream-oriented layouts.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>60 FPS overlay</h3><p>The browser overlay targets roughly 60 frames per second for smoother press feedback and trails.</p></article>
+        <article class="detail-card"><h3>Independent inputs</h3><p>Configure Key 1, Key 2 and optional mouse inputs with independent press colors and separate K1/K2 trail colors.</p></article>
+        <article class="detail-card"><h3>Live BPM</h3><p>A dedicated speed card measures recent input timing with no artificial BPM ceiling, so very fast 300–400+ BPM tapping can still be represented.</p></article>
+        <article class="detail-card"><h3>Consistency-aware MAX BPM</h3><p>During a stable stream the card shows live BPM; when tapping becomes uneven or stops it falls back to the fastest consistency-qualified MAX BPM for the session.</p></article>
+        <article class="detail-card"><h3>Correct dual-input speed</h3><p>Configured inputs are measured independently and combined so simultaneous two-button tapping is not incorrectly shown as half-speed.</p></article>
+        <article class="detail-card"><h3>Horizontal or vertical</h3><p>Choose horizontal / vertical layouts and Up / Left / Right trail directions for compact strips or classic vertical stacks.</p></article>
+        <article class="detail-card"><h3>Cumulative TOTAL</h3><p>Total key presses remain cumulative until you deliberately reset them instead of resetting every second.</p></article>
+        <article class="detail-card"><h3>Custom color picker</h3><p>Use the dark in-app picker, editable HEX values, RGB/HSV controls and recent-color swatches across overlay colors.</p></article>
+        <article class="detail-card"><h3>Background capture</h3><p>Supported keyboard, punctuation, modifier and mouse bindings continue to update while the desktop app is minimized.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Ranked Play</div><h2>Profile stats and match changes without another utility.</h2></div><p>The Ranked Play Tracker now keeps official profile information visible outside a match and switches into a much faster live refresh while the overlay is in use.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>Profile snapshot anytime</h3><p>Opening the tracker or pressing Refresh Now requests the official Ranked profile snapshot even when background tracking is disabled.</p></article>
+        <article class="detail-card"><h3>Ranked profile cards</h3><p>Show leaderboard rank, rating, games, wins, win rate, lifetime Ranked wins and season score where the official data is available.</p></article>
+        <article class="detail-card"><h3>~1.5 second live mode</h3><p>When the Ranked OBS source or preview is visible, it requests a fresh snapshot about every 1.5 seconds and bypasses the small relay profile cache.</p></article>
+        <article class="detail-card"><h3>Transparent OBS mode</h3><p>Remove the ranked card fill, border and shadow while keeping text, rating, graph, points and labels visible over your stream.</p></article>
+        <article class="detail-card"><h3>Custom appearance</h3><p>Line, win, loss, background, text colors and opacity stay editable; background and opacity are ignored while transparent mode is enabled.</p></article>
+        <article class="detail-card"><h3>Session graph</h3><p>Session delta and W/L remain session values and update when osu!'s published Ranked Play statistics actually change.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Updates &amp; reliability</div><h2>Fewer manual downloads and fewer mystery states.</h2></div><p>Update discovery uses multiple sources and packaged builds can replace the installed portable EXE automatically.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>Multiple update sources</h3><p>Checks the ValoCookie update manifest and GitHub release information, choosing the highest valid semantic version when one source is stale.</p></article>
+        <article class="detail-card"><h3>UPDATE NOW</h3><p>The packaged Windows build stages the replacement in Windows TEMP, waits for the old process to exit, backs up and verifies the portable EXE, replaces the exact running OsuRequests.exe path and relaunches that same file.</p></article>
+        <article class="detail-card"><h3>Verified replacement</h3><p>The updater checks file size and SHA-256 before relaunching. Update diagnostics are written under Windows TEMP instead of leaving update copies beside the installed app.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Common questions</div><h2>Quick answers.</h2></div></div>
+      <div class="faq">
+        <details><summary>Does the Key Visualizer work while the app is minimized?</summary><p>Yes. Supported keyboard and mouse bindings are captured in the background for the Browser Source.</p></details>
+        <details><summary>Is tap speed capped?</summary><p>No artificial BPM maximum is configured. The displayed value is derived from the measured input timing, with a consistency-qualified MAX BPM record for sustained tapping.</p></details>
+        <details><summary>Can !skin include a download link?</summary><p>Yes. Stable and lazer can each keep automatic detection or use an editable display name and HTTP/HTTPS link.</p></details>
+        <details><summary>Does Ranked Play update outside an active match?</summary><p>Yes. Profile data can refresh outside a match, and the overlay / preview uses the faster live refresh mode while visible.</p></details>
+        <details><summary>Does UPDATE NOW create another permanent EXE?</summary><p>No. The replacement is staged in Windows TEMP and the exact installed portable EXE path is swapped during one brief automatic restart.</p></details>
+      </div>
+    </section>
+
+    <section class="band shell"><div><div class="eyebrow">Also from ValoCookie</div><h2>Want the rest of the stream prepared too?</h2></div><p><a class="text-link" href="/streamflight/">StreamFlight</a> organizes applications, websites, recurring checks and background helpers before going live.</p></section>
+  </main>
+
+  <footer class="site-footer shell"><div><strong>osu!Requests by ValoCookie</strong><span>© <span data-year>2026</span> ValoCookie. All rights reserved.</span></div><div class="footer-links"><a href="/">Home</a><a href="https://github.com/ValoCookie/osu-Requests/issues" target="_blank" rel="noreferrer">Report a bug</a></div></footer>
+  <script src="/script.js?v=3.4-auto-releases" defer></script>
+</body>
+</html>

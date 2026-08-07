@@ -1,8 +1,16 @@
-APP REPOSITORY README REPLACEMENTS
-==================================
+ValoCookie GitHub Pages — osu!Requests v1.5.0 website update
+============================================================
 
-Replace:
-  ValoCookie/osu-Requests/README.md  <- osu-Requests/README.md
-  ValoCookie/streamflight/README.md  <- streamflight/README.md
+Upload/replace these files in ValoCookie/ValoCookie.github.io:
 
-These READMEs intentionally do not hard-code a version number. They link to /releases/latest so they stay correct when the Release Manager publishes a new EXE.
+  README.md
+  index.html
+  script.js
+  osu-requests/index.html
+
+Do NOT replace updates.json manually. The ValoCookie Release Manager owns that file.
+
+The HTML now uses v1.5.0 as the visible fallback/current osu!Requests version.
+script.js still reads updates.json + GitHub Releases, so future releases can update the displayed version automatically.
+
+No Cloudflare Worker update is required for the v1.5.0 overlay expansion.
