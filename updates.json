@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-07T22:16:48.090530Z",
+  "generated_at": "2026-08-07T22:17:12.469529Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -19,10 +19,10 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.4",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.4/StreamPreflight.exe",
       "notes": [
-        "Updater Change"
+        "Update"
       ],
       "mandatory": true,
-      "published_at": "2026-08-07T21:38:26.629254Z"
+      "published_at": "2026-08-07T22:17:12.469529Z"
     }
   }
 }
