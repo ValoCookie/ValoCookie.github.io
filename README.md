@@ -1,16 +1,16 @@
 # ValoCookie Streamer Tools
 
-Official GitHub Pages website for **osu!Requests** and **StreamFlight**.
+Official GitHub Pages website for **osuStreamDeck** and **StreamFlight**.
 
 🌐 https://valocookie.github.io/
 
 ## Apps
 
-### osu!Requests — v1.5.0
+### osuStreamDeck — v1.5.0
 
 Windows Twitch → osu! request manager and stream-side toolkit for **osu!stable** and **osu!lazer**.
 
-Version **1.5.0** expands the app into a broader **osu! Overlays** toolkit. Alongside the Twitch request queue and request Browser Sources, osu!Requests now includes separately editable overlays for the Key Overlay, PP Counter, PP Graph, Now Playing, Score Stats, Map Timeline and Ranked Play. Gameplay overlays support transparent OBS backgrounds and customizable presentation.
+Version **1.5.0** expands the app into a broader **osu! Overlays** toolkit. Alongside the Twitch request queue and request Browser Sources, osuStreamDeck now includes separately editable overlays for the Key Overlay, PP Counter, PP Graph, Now Playing, Score Stats, Map Timeline and Ranked Play. Gameplay overlays support transparent OBS backgrounds and customizable presentation.
 
 The app also includes queue/review controls, optional map filters, `!np`, viewer `!myq`, editable `!skin`, customizable osu! request-message formatting, cleaner mod delivery, improved Twitch mentions/reminders and portable in-place updates.
 

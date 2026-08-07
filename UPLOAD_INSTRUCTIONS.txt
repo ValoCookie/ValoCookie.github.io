@@ -1,16 +1,22 @@
-ValoCookie GitHub Pages — osu!Requests v1.5.0 website update
-============================================================
+ValoCookie GitHub Pages — osuStreamDeck v1.5.0 name update
 
-Upload/replace these files in ValoCookie/ValoCookie.github.io:
+Replace these files in the GitHub Pages repository:
+- README.md
+- index.html
+- script.js
+- styles.css
+- osu-requests/index.html
 
-  README.md
-  index.html
-  script.js
-  osu-requests/index.html
+What changed:
+- Visible osu!Requests / osu! Requests product wording -> osuStreamDeck
+- The small osu! product badge stays exactly "osu!"
+- StreamFlight small badge changes from "SF" to the word "FLIGHT"
 
-Do NOT replace updates.json manually. The ValoCookie Release Manager owns that file.
+What did NOT change:
+- /osu-requests/ page path
+- ValoCookie/osu-Requests repository URL
+- updates.json
+- internal update key osuRequests
+- download/release lookup logic in script.js
 
-The HTML now uses v1.5.0 as the visible fallback/current osu!Requests version.
-script.js still reads updates.json + GitHub Releases, so future releases can update the displayed version automatically.
-
-No Cloudflare Worker update is required for the v1.5.0 overlay expansion.
+Do NOT replace updates.json manually; the Release Manager owns it.
