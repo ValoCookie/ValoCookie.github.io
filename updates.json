@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-07T20:09:39.498361Z",
+  "generated_at": "2026-08-07T20:09:59.121631Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -15,16 +15,14 @@
     },
     "streamFlight": {
       "display_name": "StreamFlight",
-      "version": "1.1.1",
-      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.1",
-      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.1/StreamPreflight.exe",
+      "version": "1.1.2",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.2",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.2/osuStreamDeck.exe",
       "notes": [
-        "Ordered application startup",
-        "Background helpers and profiles",
-        "Reusable pre-stream workflow"
+        "HUGE CHANGE"
       ],
       "mandatory": true,
-      "published_at": "2026-07-30T20:50:30Z"
+      "published_at": "2026-08-07T20:09:59.121631Z"
     }
   }
 }
