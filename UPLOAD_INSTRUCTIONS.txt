@@ -1,0 +1,8 @@
+APP REPOSITORY README REPLACEMENTS
+==================================
+
+Replace:
+  ValoCookie/osu-Requests/README.md  <- osu-Requests/README.md
+  ValoCookie/streamflight/README.md  <- streamflight/README.md
+
+These READMEs intentionally do not hard-code a version number. They link to /releases/latest so they stay correct when the Release Manager publishes a new EXE.
