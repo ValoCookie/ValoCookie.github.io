@@ -1,19 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-07T01:50:00Z",
+  "generated_at": "2026-08-07T20:09:39.498361Z",
   "apps": {
     "osuRequests": {
-      "display_name": "osuStreamDeck",
-      "version": "1.5.0",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.0",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.0/osuStreamDeck.exe",
+      "display_name": "osu!StreamDeck",
+      "version": "1.5.1",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.1",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.1/osuStreamDeck.exe",
       "notes": [
-        "osuStreamDeck rebrand",
-        "Expanded osu! Overlays suite",
-        "Customizable transparent OBS overlays"
+        "HUGE CHANGE"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-07T01:50:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-07T20:09:39.498361Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
