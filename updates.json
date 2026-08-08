@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-08T18:25:57.548764Z",
+  "generated_at": "2026-08-08T18:26:11.428835Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,14 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.19",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.19/osuStreamDeck.exe",
       "notes": [
-        "Faster !np with live tosu-compatible map selection and metadata recovery",
-        "Profile Stats builder and improved relay authentication handling",
-        "Background update toast with custom ValoCookie chime",
-        "Flexible OBS overlay layouts and component controls",
-        "ValoCookie ownership and official-publisher foundation"
+        "Chunk update"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-08T03:55:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-08T18:26:11.428835Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
