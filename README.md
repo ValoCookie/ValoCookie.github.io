@@ -21,6 +21,7 @@ Windows pre-stream workspace with ordered application startup, websites, reusabl
 - Repository: https://github.com/ValoCookie/streamflight
 - Releases: https://github.com/ValoCookie/streamflight/releases
 
+
 ## Trademark / affiliation
 osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is an independent ValoCookie project and is not an official ppy product.
 

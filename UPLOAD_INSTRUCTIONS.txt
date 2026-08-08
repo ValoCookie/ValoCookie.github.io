@@ -1,10 +1,10 @@
-GITHUB PAGES UPLOAD — v4.0
+UPLOAD THIS FOLDER'S CONTENTS TO:
+    ValoCookie/ValoCookie.github.io  (repository root)
 
-Upload the CONTENTS of this folder to the ROOT of ValoCookie/ValoCookie.github.io.
-Do NOT upload the outer folder itself as a nested directory.
+Do this once. After the workflow is installed, the website's updates.json will
+check both app repositories automatically every 5 minutes and commit new release
+versions/download URLs by itself.
 
-Before publishing the manifest, make sure these GitHub release assets exist:
-- v1.5.19 / osuStreamDeck.exe
-- v1.1.7 / StreamPreflight.exe
+No extra PAT/secret is required for this scheduled website sync.
 
-Do NOT upload the private development workspace, Cloudflare secrets, tokens, user configuration, or private source archives.
+Do not upload the private development workspace to this public repository.
