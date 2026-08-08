@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-08T03:55:00Z",
+  "generated_at": "2026-08-08T18:25:57.548764Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -23,13 +23,10 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.7",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.7/StreamPreflight.exe",
       "notes": [
-        "Drag-and-drop reordering for application and checklist workflows",
-        "Double-click checklist completion",
-        "Background update toast with custom ValoCookie chime",
-        "ValoCookie ownership and official-publisher foundation"
+        "Chunk update"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-08T03:55:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-08T18:25:57.548764Z"
     }
   }
 }
