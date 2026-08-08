@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-08T01:27:32.125086Z",
+  "generated_at": "2026-08-08T01:27:55.873466Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.5.15",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.15",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.15/osuStreamDeck.exe",
+      "version": "1.5.16",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.16",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.16/osuStreamDeck.exe",
       "notes": [
-        "Chat Variable Update"
+        "!np fixes"
       ],
       "mandatory": true,
-      "published_at": "2026-08-08T00:37:33.585747Z"
+      "published_at": "2026-08-08T01:27:55.873466Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
