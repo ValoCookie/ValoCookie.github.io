@@ -1,0 +1,10 @@
+GITHUB PAGES UPLOAD — v4.0
+
+Upload the CONTENTS of this folder to the ROOT of ValoCookie/ValoCookie.github.io.
+Do NOT upload the outer folder itself as a nested directory.
+
+Before publishing the manifest, make sure these GitHub release assets exist:
+- v1.5.19 / osuStreamDeck.exe
+- v1.1.7 / StreamPreflight.exe
+
+Do NOT upload the private development workspace, Cloudflare secrets, tokens, user configuration, or private source archives.

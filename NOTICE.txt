@@ -1,5 +1,9 @@
 ValoCookie Streamer Tools
 
-Copyright © 2026 ValoCookie. All rights reserved.
+Copyright © 2026 ValoCookie.
+Original Creator and Official Publisher: ValoCookie.
+All rights reserved.
 
-The website source is publicly visible because it is deployed with GitHub Pages. Public visibility does not by itself grant permission to redistribute, repackage, or present ValoCookie software or branding as your own.
+This website is publicly visible because it is deployed through GitHub Pages. Public visibility does not by itself grant permission to redistribute, repackage, or present ValoCookie software, private development source, artwork, or branding as another person's own product.
+
+osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is independent and is not represented as an official ppy product.

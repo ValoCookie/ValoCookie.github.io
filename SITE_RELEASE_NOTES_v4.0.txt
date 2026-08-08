@@ -1,0 +1,8 @@
+ValoCookie GitHub Pages v4.0
+
+- Preserves the v3.9 homepage/banner/two-app layout and hero-button removal.
+- Updates osu!StreamDeck to v1.5.19 and StreamFlight to v1.1.7.
+- Updates updates.json to current release asset names.
+- Removes obsolete self-replacing updater wording.
+- Adds current !np, Profile Stats, overlay and update-toast information.
+- Adds explicit ValoCookie Original Creator / Official Publisher wording.

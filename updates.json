@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-08T03:54:16.066748Z",
+  "generated_at": "2026-08-08T03:55:00Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,10 +8,14 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.19",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.19/osuStreamDeck.exe",
       "notes": [
-        "YEP"
+        "Faster !np with live tosu-compatible map selection and metadata recovery",
+        "Profile Stats builder and improved relay authentication handling",
+        "Background update toast with custom ValoCookie chime",
+        "Flexible OBS overlay layouts and component controls",
+        "ValoCookie ownership and official-publisher foundation"
       ],
-      "mandatory": true,
-      "published_at": "2026-08-08T03:53:58.548031Z"
+      "mandatory": false,
+      "published_at": "2026-08-08T03:55:00Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -19,10 +23,13 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.7",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.7/StreamPreflight.exe",
       "notes": [
-        "YEP"
+        "Drag-and-drop reordering for application and checklist workflows",
+        "Double-click checklist completion",
+        "Background update toast with custom ValoCookie chime",
+        "ValoCookie ownership and official-publisher foundation"
       ],
-      "mandatory": true,
-      "published_at": "2026-08-08T03:54:16.066748Z"
+      "mandatory": false,
+      "published_at": "2026-08-08T03:55:00Z"
     }
   }
 }
