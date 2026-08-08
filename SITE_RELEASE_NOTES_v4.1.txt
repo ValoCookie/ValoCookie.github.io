@@ -1,8 +1,0 @@
-ValoCookie GitHub Pages v4.1
-
-- Adds automatic release synchronization for osu!StreamDeck and StreamFlight.
-- Every five minutes, GitHub Actions checks each public repository's latest release.
-- updates.json is updated automatically with version, release URL, download URL and publish time.
-- No PAT or paid service is required; the workflow uses the repository's built-in GITHUB_TOKEN.
-- Removes the public README's internal "Automatic release display" explanation.
-- Existing website design/layout is otherwise preserved.
