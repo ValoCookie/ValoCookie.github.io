@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-09T02:48:47.799352Z",
+  "generated_at": "2026-08-09T02:48:56.249746Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -22,7 +22,7 @@
         "UPDATE"
       ],
       "mandatory": true,
-      "published_at": "2026-08-09T02:48:47.799352Z"
+      "published_at": "2026-08-09T02:48:56.249746Z"
     }
   }
 }
