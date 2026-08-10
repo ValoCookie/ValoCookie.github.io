@@ -1,20 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-10T14:57:02.803408Z",
+  "generated_at": "2026-08-10T14:58:29.969943Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.5.20",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.5.20",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.5.20/osuStreamDeck.exe",
+      "version": "1.6.0",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.0",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.0/osuStreamDeck.exe",
       "notes": [
-        "Direct standalone EXE release restored",
-        "No installer or ONEDIR _internal folder required",
-        "UPX disabled with Windows 10/11 compatibility metadata",
-        "Existing streamer features preserved"
+        "UI Changes"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-08T03:55:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-10T14:58:29.969943Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
