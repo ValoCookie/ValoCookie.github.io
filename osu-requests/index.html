@@ -107,10 +107,19 @@
     </section>
 
     <section class="section shell">
-      <div class="section-head"><div><div class="eyebrow">Updates &amp; reliability</div><h2>Fewer manual downloads and fewer mystery states.</h2></div><p>Update discovery uses multiple sources and packaged builds can replace the installed portable EXE automatically.</p></div>
+      <div class="section-head"><div><div class="eyebrow">Live telemetry</div><h2>tosu-powered local data, clearly attributed.</h2></div><p>For stable/lazer live map and gameplay telemetry, osu!StreamDeck can run a pinned official tosu runtime as a separate localhost process. The ValoCookie UI, request system and overlay designs remain separate integration code.</p></div>
+      <div class="detail-grid">
+        <article class="detail-card"><h3>Independent upstream project</h3><p><strong>tosu</strong> is developed independently by the tosu project. ValoCookie does not claim authorship of tosu.</p></article>
+        <article class="detail-card"><h3>Pinned &amp; verified</h3><p>The build currently pins tosu v4.25.1 and verifies the official Windows runtime archive before packaging it.</p></article>
+        <article class="detail-card"><h3>LGPL-3.0</h3><p>tosu is licensed under the GNU Lesser General Public License v3.0. The exact upstream source is available at <a class="text-link" href="https://github.com/tosuapp/tosu/tree/v4.25.1" target="_blank" rel="noreferrer">tosu v4.25.1</a>.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head"><div><div class="eyebrow">Updates &amp; reliability</div><h2>Fewer manual downloads and fewer mystery states.</h2></div><p>Update discovery uses multiple sources, and UPDATE NOW opens the official release/download in your browser without silently replacing app files.</p></div>
       <div class="detail-grid">
         <article class="detail-card"><h3>Multiple update sources</h3><p>Checks the ValoCookie update manifest and GitHub release information, choosing the highest valid semantic version when one source is stale.</p></article>
-        <article class="detail-card"><h3>UPDATE NOW</h3><p>The packaged Windows build stages the replacement in Windows TEMP, waits for the old process to exit, backs up and verifies the portable EXE, replaces the exact running OsuRequests.exe path and relaunches that same file.</p></article>
+        <article class="detail-card"><h3>UPDATE NOW</h3><p>The packaged Windows build opens the official ValoCookie release/download in your default browser. The app does not silently download, overwrite or relaunch its own executable.</p></article>
         <article class="detail-card"><h3>Verified replacement</h3><p>The updater checks file size and SHA-256 before relaunching. Update diagnostics are written under Windows TEMP instead of leaving update copies beside the installed app.</p></article>
       </div>
     </section>
@@ -122,7 +131,8 @@
         <details><summary>Is tap speed capped?</summary><p>No artificial BPM maximum is configured. The displayed value is derived from the measured input timing, with a consistency-qualified MAX BPM record for sustained tapping.</p></details>
         <details><summary>Can !skin include a download link?</summary><p>Yes. Stable and lazer can each keep automatic detection or use an editable display name and HTTP/HTTPS link.</p></details>
         <details><summary>Does Ranked Play update outside an active match?</summary><p>Yes. Profile data can refresh outside a match, and the overlay / preview uses the faster live refresh mode while visible.</p></details>
-        <details><summary>Does UPDATE NOW create another permanent EXE?</summary><p>No. The replacement is staged in Windows TEMP and the exact installed portable EXE path is swapped during one brief automatic restart.</p></details>
+        <details><summary>Does UPDATE NOW replace the app automatically?</summary><p>No. It opens the official release/download in your browser so the Windows app is not silently modifying its own executable.</p></details>
+        <details><summary>What is tosu and why is it mentioned here?</summary><p>tosu is an independent open-source osu! memory/telemetry project used as a separate local data runtime for parts of osu!StreamDeck. The current integration pins v4.25.1 under LGPL-3.0 and keeps the upstream project/source attribution visible.</p></details>
       </div>
     </section>
 

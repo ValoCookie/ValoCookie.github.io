@@ -1,4 +1,3 @@
-\
 #!/usr/bin/env python3
 import json, re, urllib.request
 from pathlib import Path
@@ -8,12 +7,12 @@ UPDATES = ROOT / "updates.json"
 APPS = {
     "osuRequests": {
         "repo": "ValoCookie/osu-Requests",
-        "asset": "osuStreamDeck.exe",
+        "assets": ["osuStreamDeck_Setup_", "osuStreamDeck.exe"],
         "display": "osu!StreamDeck",
     },
     "streamFlight": {
         "repo": "ValoCookie/streamflight",
-        "asset": "StreamPreflight.exe",
+        "assets": ["StreamPreflight_Setup_", "StreamPreflight.exe"],
         "display": "StreamFlight",
     },
 }
@@ -37,9 +36,17 @@ def sync():
         rel = latest_release(cfg["repo"])
         version = version_from_tag(rel.get("tag_name"))
         asset_url = None
-        for asset in rel.get("assets", []):
-            if asset.get("name", "").lower() == cfg["asset"].lower():
-                asset_url = asset.get("browser_download_url")
+        release_assets = rel.get("assets", [])
+        for wanted in cfg["assets"]:
+            wanted_lower = wanted.lower()
+            for asset in release_assets:
+                name = str(asset.get("name", ""))
+                lower = name.lower()
+                matches = lower == wanted_lower or (wanted_lower.endswith("_") and lower.startswith(wanted_lower) and lower.endswith(".exe"))
+                if matches:
+                    asset_url = asset.get("browser_download_url")
+                    break
+            if asset_url:
                 break
         if not asset_url:
             asset_url = f"https://github.com/{cfg['repo']}/releases/latest"

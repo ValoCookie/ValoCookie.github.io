@@ -7,3 +7,8 @@ All rights reserved.
 This website is publicly visible because it is deployed through GitHub Pages. Public visibility does not by itself grant permission to redistribute, repackage, or present ValoCookie software, private development source, artwork, or branding as another person's own product.
 
 osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is independent and is not represented as an official ppy product.
+
+Third-party telemetry
+---------------------
+osu!StreamDeck can use the independently developed tosu project as a separate local telemetry runtime. tosu is not authored by ValoCookie and is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0). Current pinned integration version: tosu v4.25.1. Upstream project and corresponding source: https://github.com/tosuapp/tosu/tree/v4.25.1
+

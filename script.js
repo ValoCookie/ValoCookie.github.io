@@ -50,9 +50,7 @@ function preferredAsset(project, release) {
   if (!Array.isArray(release?.assets)) return null;
   const files = release.assets.filter((asset) => asset?.name && !/checksum|sha256/i.test(asset.name));
   return files.find((asset) => project.exactAsset.test(asset.name))
-    || files.find((asset) => /setup.*\.exe$/i.test(asset.name))
-    || files.find((asset) => /installer.*\.exe$/i.test(asset.name))
-    || files.find((asset) => /\.exe$/i.test(asset.name))
+    || files.find((asset) => /\.exe$/i.test(asset.name) && !/(?:setup|installer)/i.test(asset.name))
     || files.find((asset) => /\.zip$/i.test(asset.name))
     || null;
 }
