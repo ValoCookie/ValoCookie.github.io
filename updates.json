@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-08T03:55:00Z",
+  "generated_at": "2026-08-10T14:57:02.803408Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -18,17 +18,14 @@
     },
     "streamFlight": {
       "display_name": "StreamFlight",
-      "version": "1.1.8",
-      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.1.8",
-      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.1.8/StreamPreflight.exe",
+      "version": "1.2.0",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.2.0",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.2.0/StreamPreflight.exe",
       "notes": [
-        "Direct standalone EXE release restored",
-        "No installer or ONEDIR _internal folder required",
-        "UPX disabled with Windows 10/11 compatibility metadata",
-        "Existing StreamFlight workflow preserved"
+        "UI Changes"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-08T03:55:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-10T14:57:02.803408Z"
     }
   }
 }
