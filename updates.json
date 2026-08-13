@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-13T03:03:13.486279Z",
+  "generated_at": "2026-08-13T21:34:26.362218Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.6.2",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.2",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.2/osuStreamDeck.exe",
+      "version": "1.6.3",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.3",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.3/osuStreamDeck.exe",
       "notes": [
-        "MAINTANACE"
+        "Added a BPM in osu chat for maps"
       ],
       "mandatory": true,
-      "published_at": "2026-08-13T03:03:13.486279Z"
+      "published_at": "2026-08-13T21:34:26.362218Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
