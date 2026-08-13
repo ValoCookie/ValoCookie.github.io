@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-13T03:02:15.124089Z",
+  "generated_at": "2026-08-13T03:03:13.486279Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.6.1",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.1",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.1/osuStreamDeck.exe",
+      "version": "1.6.2",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.2",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.2/osuStreamDeck.exe",
       "notes": [
-        "E"
+        "MAINTANACE"
       ],
       "mandatory": true,
-      "published_at": "2026-08-13T01:44:40.606111Z"
+      "published_at": "2026-08-13T03:03:13.486279Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
