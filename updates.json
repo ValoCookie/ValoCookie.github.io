@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-14T22:18:31.793417Z",
+  "generated_at": "2026-08-14T23:23:34.302770Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.6.3",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.3",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.3/osuStreamDeck.exe",
+      "version": "1.6.5",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.5",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.5/osuStreamDeck.exe",
       "notes": [
-        "Twitch IRC connection + BPM in osu! chat fix"
+        "idk what i fix but i fix"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-14T22:18:31.793417Z"
+      "mandatory": true,
+      "published_at": "2026-08-14T23:23:34.302770Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
