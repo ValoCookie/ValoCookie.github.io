@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-13T21:34:26.362218Z",
+  "generated_at": "2026-08-14T22:18:31.793417Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,10 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.3",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.3/osuStreamDeck.exe",
       "notes": [
-        "Added a BPM in osu chat for maps"
+        "Twitch IRC connection + BPM in osu! chat fix"
       ],
-      "mandatory": true,
-      "published_at": "2026-08-13T21:34:26.362218Z"
+      "mandatory": false,
+      "published_at": "2026-08-14T22:18:31.793417Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
