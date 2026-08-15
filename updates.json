@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-15T22:44:36.567985Z",
+  "generated_at": "2026-08-15T23:01:59.248076Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.6.8",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.8",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.8/osuStreamDeck.exe",
+      "version": "1.6.9",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.9",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.9/osuStreamDeck.exe",
       "notes": [
-        "key overlay and skin command update"
+        "!skin fixes"
       ],
       "mandatory": true,
-      "published_at": "2026-08-15T22:44:36.567985Z"
+      "published_at": "2026-08-15T23:01:59.247571Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
