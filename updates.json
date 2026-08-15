@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-14T23:23:34.302770Z",
+  "generated_at": "2026-08-15T22:15:55.169616Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.6.5",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.5",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.5/osuStreamDeck.exe",
+      "version": "1.6.6",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.6",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.6/osuStreamDeck.exe",
       "notes": [
-        "idk what i fix but i fix"
+        "!skin fix and star limiter changes"
       ],
       "mandatory": true,
-      "published_at": "2026-08-14T23:23:34.302770Z"
+      "published_at": "2026-08-15T22:15:55.169616Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
