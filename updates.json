@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-13T02:45:00Z",
+  "generated_at": "2026-08-17T20:19:26.350345Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,13 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.6.12",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.6.12/osuStreamDeck.exe",
       "notes": [
-        "Restores reliable Title (Artist) map labels in osu! chat",
-        "Adds Cloudflare server-side official osu! API metadata fallback",
-        "Prevents known-bad generic osu! beatmap messages from being sent",
-        "Preserves tosu guard, overlay and UI stability fixes"
+        "TWITCH chat response change"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-13T02:45:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-17T20:19:26.350345Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
