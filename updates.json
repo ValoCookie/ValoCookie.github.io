@@ -1,21 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-17T20:21:47.081069Z",
+  "generated_at": "2026-08-18T17:30:55.259131Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.7.27",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.7.27",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.7.27/osuStreamDeck.exe",
+      "version": "1.8.0",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.8.0",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.8.0/osuStreamDeck.exe",
       "notes": [
-        "TWITCH chat confirmation change",
-        "FROM",
-        "Map accepted! Queue position: 1",
-        "TO",
-        "*map name*! Queue position: 1"
+        "backend OAUTH fixes"
       ],
       "mandatory": true,
-      "published_at": "2026-08-17T20:21:47.081069Z"
+      "published_at": "2026-08-18T17:30:55.259131Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
