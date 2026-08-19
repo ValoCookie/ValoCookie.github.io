@@ -23,6 +23,6 @@ Windows pre-stream workspace with ordered application startup, websites, reusabl
 
 
 ## Trademark / affiliation
-osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is an independent ValoCookie project and is not an official ppy product.
+osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is an independent project and is not an official ppy product.
 
 Copyright © 2026 ValoCookie. All rights reserved.
