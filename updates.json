@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T06:59:46.645833Z",
+  "generated_at": "2026-08-19T17:16:14.700917Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.8.1",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.8.1",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.8.1/osuStreamDeck.exe",
+      "version": "1.8.2",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.8.2",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.8.2/osuStreamDeck.exe",
       "notes": [
-        "Twitch OAUTH random disconnection fix (keep in mind this might be an issue that takes longer to solve since it relies on using the app for an extended time until the issue occurs again)"
+        "possible Twitch disconnection fix (needs atleast 4hr of testing sadly so I cant confirm if it fixed)"
       ],
       "mandatory": true,
-      "published_at": "2026-08-19T06:59:46.645833Z"
+      "published_at": "2026-08-19T17:16:14.700917Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
