@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T17:16:14.700917Z",
+  "generated_at": "2026-08-19T21:43:10.181952Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.8.2",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.8.2",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.8.2/osuStreamDeck.exe",
+      "version": "1.8.3",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.8.3",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.8.3/osuStreamDeck.exe",
       "notes": [
-        "possible Twitch disconnection fix (needs atleast 4hr of testing sadly so I cant confirm if it fixed)"
+        "twitch connection + !np fixes for multi/duel"
       ],
       "mandatory": true,
-      "published_at": "2026-08-19T17:16:14.700917Z"
+      "published_at": "2026-08-19T21:43:10.181952Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
