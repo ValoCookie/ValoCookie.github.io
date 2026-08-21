@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-20T15:53:48.242829Z",
+  "generated_at": "2026-08-21T20:41:54.641786Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.8.4",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.8.4",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.8.4/osuStreamDeck.exe",
+      "version": "1.9.1",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.9.1",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.9.1/osuStreamDeck.exe",
       "notes": [
-        "Twitch Token Fix"
+        "changes for automatic update for the next time OSD receives changes + removed delay from commands, and added a custom overlay modifier for anyone that wants to add their own stuff (is also in experimental mode as of now)"
       ],
       "mandatory": true,
-      "published_at": "2026-08-20T15:53:48.242829Z"
+      "published_at": "2026-08-21T20:41:54.641786Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
