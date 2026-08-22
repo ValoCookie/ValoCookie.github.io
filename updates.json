@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-21T20:41:54.641786Z",
+  "generated_at": "2026-08-22T21:04:42.084850Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "1.9.1",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v1.9.1",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v1.9.1/osuStreamDeck.exe",
+      "version": "2.0.0",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.0.0",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.0.0/osuStreamDeck.exe",
       "notes": [
-        "changes for automatic update for the next time OSD receives changes + removed delay from commands, and added a custom overlay modifier for anyone that wants to add their own stuff (is also in experimental mode as of now)"
+        "Mainly testing the new OSD updater"
       ],
       "mandatory": true,
-      "published_at": "2026-08-21T20:41:54.641786Z"
+      "published_at": "2026-08-22T21:04:42.084850Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
