@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-22T21:04:42.084850Z",
+  "generated_at": "2026-08-23T00:28:54.773508Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.0.0",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.0.0",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.0.0/osuStreamDeck.exe",
+      "version": "2.0.1",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.0.1",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.0.1/osuStreamDeck.exe",
       "notes": [
-        "Mainly testing the new OSD updater"
+        "some major updates, would recommend to update the app"
       ],
       "mandatory": true,
-      "published_at": "2026-08-22T21:04:42.084850Z"
+      "published_at": "2026-08-23T00:28:54.773508Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
