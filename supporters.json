@@ -1,0 +1,4 @@
+{
+  "supporters": [],
+  "note": "Public consenting supporter identity map. Patreon identity is intentionally not published. Apps match the linked osu! username against osu or osu_aliases and re-check every 10 minutes."
+}
