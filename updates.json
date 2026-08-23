@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-23T19:56:52.680497Z",
+  "generated_at": "2026-08-23T20:57:27.042220Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.1.10",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.10",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.10/osuStreamDeck.exe",
+      "version": "2.1.1",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.1",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.1/osuStreamDeck.exe",
       "notes": [
         "Added Patreon supporter linking",
         "Added supporter badges and supporter-only UI extras",
@@ -16,7 +16,7 @@
         "Cleaned up and polished the overall UI"
       ],
       "mandatory": true,
-      "published_at": "2026-08-23T19:56:36.116174Z"
+      "published_at": "2026-08-23T20:57:27.042220Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
