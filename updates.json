@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-23T20:57:27.042220Z",
+  "generated_at": "2026-08-23T21:01:05.744499Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -20,18 +20,14 @@
     },
     "streamFlight": {
       "display_name": "StreamFlight",
-      "version": "1.3.0",
-      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.0",
-      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.0/StreamPreflight.exe",
+      "version": "1.3.1",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.1",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.1/StreamPreflight.exe",
       "notes": [
-        "Added Patreon supporter linking",
-        "Added supporter badges and supporter-only UI extras",
-        "Improved profile and avatar display",
-        "Improved supporter recognition across both apps",
-        "Cleaned up and polished the overall UI"
+        "just patreon auto sign in fix"
       ],
       "mandatory": true,
-      "published_at": "2026-08-23T19:56:52.680497Z"
+      "published_at": "2026-08-23T21:01:05.744499Z"
     }
   }
 }
