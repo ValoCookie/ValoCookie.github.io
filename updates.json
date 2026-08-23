@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-23T19:56:36.116174Z",
+  "generated_at": "2026-08-23T19:56:52.680497Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -24,13 +24,14 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.0",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.0/StreamPreflight.exe",
       "notes": [
-        "ValoCookie supporter presentation synchronized with osu!StreamDeck",
-        "Updated supporter cookie/footer behavior and Patreon presentation",
-        "Current standalone EXE build and updater metadata synchronized for publication",
-        "Existing pre-stream startup, websites, checklist, profiles, and readiness workflow preserved"
+        "Added Patreon supporter linking",
+        "Added supporter badges and supporter-only UI extras",
+        "Improved profile and avatar display",
+        "Improved supporter recognition across both apps",
+        "Cleaned up and polished the overall UI"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-23T19:42:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-23T19:56:52.680497Z"
     }
   }
 }
