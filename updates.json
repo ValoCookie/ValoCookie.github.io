@@ -1,21 +1,22 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-23T19:42:00Z",
+  "generated_at": "2026-08-23T19:56:36.116174Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.1.0",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.0",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.0/osuStreamDeck.exe",
+      "version": "2.1.10",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.10",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.10/osuStreamDeck.exe",
       "notes": [
-        "Optional Patreon supporter linking with server-side membership verification",
-        "Supporter badge, creator dev override, account-choice helper, and sanitized diagnostics",
-        "Twitch long-session refresh relay hardening and reconnect alerts",
-        "osu! account avatar/supporter badge polish plus queue reminder disable-state improvements",
-        "Overlay eyedropper, layout, supporter footer, and general UI polish"
+        "Added Patreon supporter linking",
+        "Added supporter badges and supporter-only UI extras",
+        "Improved osu! profile and avatar display",
+        "Improved queue reminder controls",
+        "Improved Twitch reconnect handling",
+        "Cleaned up and polished the overall UI"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-23T19:42:00Z"
+      "mandatory": true,
+      "published_at": "2026-08-23T19:56:36.116174Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
