@@ -1,17 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-24T11:35:08.879044Z",
+  "generated_at": "2026-08-26T00:28:48.440991Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.1.4",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.4",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.4/osuStreamDeck.exe",
+      "version": "2.1.5",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.5",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.5/osuStreamDeck.exe",
       "notes": [
-        "PP overlay fix"
+        "v2.1.5 — Overlay & Performance Update",
+        "Better live PP accuracy, smoother Compact PP animations, new hit counters, lower CPU usage, improved Twitch reconnect handling, autosaving overlay settings, and several stability/UI fixes."
       ],
       "mandatory": true,
-      "published_at": "2026-08-24T11:35:08.879044Z"
+      "published_at": "2026-08-26T00:28:48.440991Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
