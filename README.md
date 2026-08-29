@@ -16,7 +16,7 @@ It now has requests, OBS overlays, a key/BPM visualizer, `!skin`, `!np`, profile
 
 ## StreamFlight — v1.3.1
 
-A small pre-stream app I made because I kept forgetting things before going live.
+A small pre-stream app I made because idk, thought it was interesting as a new project.
 
 It can open apps and websites in order, save different profiles, keep reusable checklists and show what still needs to be done before stream.
 
@@ -28,6 +28,6 @@ It can open apps and websites in order, save different profiles, keep reusable c
 
 osu! and its related marks belong to ppy Pty Ltd.
 
-osu!StreamDeck is my own independent project and is not an official ppy product.
+osu!StreamDeck is my own project and is not an official ppy product.
 
 © 2026 ValoCookie
