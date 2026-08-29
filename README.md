@@ -1,28 +1,33 @@
-# ValoCookie Streamer Tools
+# ValoCookie
 
-Official GitHub Pages website for **osu!StreamDeck** and **StreamFlight**.
+This is the repo for my website and the stuff I make.
 
 🌐 https://valocookie.github.io/
 
-## Official publisher
-Both applications are created and officially published by **ValoCookie**.
-
 ## osu!StreamDeck — v2.1.9
-Windows Twitch → osu! request manager and stream-side toolkit for osu!stable and osu!lazer. Current highlights include natural mod detection, fast `!np`, customizable OBS overlays, Key Visualizer, Profile Stats builder, Ranked Play tools and background update notifications.
+
+This started as a Twitch beatmap request manager for osu! and then I kept adding things to it.
+
+It now has requests, OBS overlays, a key/BPM visualizer, `!skin`, `!np`, profile stats, Ranked Play stuff and support for both osu!stable and osu!lazer.
 
 - Website: https://valocookie.github.io/osu-requests/
 - Repository: https://github.com/ValoCookie/osu-Requests
 - Releases: https://github.com/ValoCookie/osu-Requests/releases
 
 ## StreamFlight — v1.3.1
-Windows pre-stream workspace with ordered application startup, websites, reusable draggable checklists, profiles, readiness status and background update notifications.
+
+A small pre-stream app I made because I kept forgetting things before going live.
+
+It can open apps and websites in order, save different profiles, keep reusable checklists and show what still needs to be done before stream.
 
 - Website: https://valocookie.github.io/streamflight/
 - Repository: https://github.com/ValoCookie/streamflight
 - Releases: https://github.com/ValoCookie/streamflight/releases
 
+## About the osu! name
 
-## Trademark / affiliation
-osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is an independent ValoCookie project and is not an official ppy product.
+osu! and its related marks belong to ppy Pty Ltd.
 
-Copyright © 2026 ValoCookie. All rights reserved.
+osu!StreamDeck is my own independent project and is not an official ppy product.
+
+© 2026 ValoCookie
