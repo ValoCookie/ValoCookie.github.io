@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d14">
-  <meta name="description" content="ValoCookie builds Windows streamer tools: osu!StreamDeck for Twitch map requests, OBS overlays, live key/BPM visualization, skin commands and Ranked Play tracking, plus StreamFlight for repeatable pre-stream preparation.">
+  <meta name="description" content="ValoCookie makes osu! and streaming tools, including osu!StreamDeck and StreamFlight.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://valocookie.github.io/">
-  <meta property="og:title" content="ValoCookie Streamer Tools">
-  <meta property="og:description" content="Windows tools for Twitch, osu!, OBS overlays, Ranked Play tracking and repeatable pre-stream setup.">
+  <meta property="og:title" content="ValoCookie">
+  <meta property="og:description" content="osu!, streaming, and random tools that got way more serious than originally intended.">
   <meta property="og:url" content="https://valocookie.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://valocookie.github.io/assets/valocookie-banner.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <title>ValoCookie Streamer Tools — osu!StreamDeck &amp; StreamFlight</title>
+  <title>ValoCookie</title>
   <link rel="icon" href="/assets/favicon.png" type="image/png">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css?v=3.4-auto-releases">
@@ -22,10 +22,10 @@
   <header class="site-header shell">
     <a class="brand" href="/" aria-label="ValoCookie home">
       <span class="brand-mark"><img src="/assets/valocookie-logo-128.png" alt=""></span>
-      <span class="brand-copy"><strong>ValoCookie</strong><small>Streamer tools</small></span>
+      <span class="brand-copy"><strong>ValoCookie</strong><small>i make stuff sometimes</small></span>
     </a>
     <nav aria-label="Main navigation">
-      <a href="#apps">Apps</a>
+      <a href="#apps">Stuff</a>
       <a href="/osu-requests/">osu!StreamDeck</a>
       <a href="/streamflight/">StreamFlight</a>
     </nav>
@@ -35,69 +35,66 @@
     <section class="hero shell brand-hero">
       <div class="brand-hero-art" aria-hidden="true"></div>
       <div class="brand-hero-content">
-        <div class="eyebrow">Windows tools for streamers</div>
-        <h1>Less setup.<br><span class="gradient">More stream.</span></h1>
-        <p class="hero-copy">Two focused desktop tools: one for Twitch → osu! requests, live stream overlays and Ranked Play tools, one for preparing the rest of your stream setup in a repeatable order.</p>
-        <div class="trust-row">
-          <span>✓ Windows-first</span><span>✓ Direct GitHub releases</span><span>✓ No forced account for downloads</span><span>✓ Created &amp; officially published by ValoCookie</span>
-        </div>
+        <div class="eyebrow">yo, i'm ValoCookie</div>
+        <h1>I play osu!, stream,<br><span class="gradient">and somehow ended up making software.</span></h1>
+        <p class="hero-copy">Most of this started with me going “bro why does this not exist” and then making it myself instead of moving on with my life.</p>
       </div>
     </section>
 
     <section class="section shell" id="apps">
       <div class="section-head">
-        <div><div class="eyebrow">The toolbox</div><h2>Two apps, each built to do one job well.</h2></div>
-        <p>Use either app by itself, or pair them if you stream osu! and want both request management and consistent pre-stream preparation.</p>
+        <div><div class="eyebrow">the stuff</div><h2>Things that escaped the project folder</h2></div>
+        <p>These were supposed to be small personal tools. That went well.</p>
       </div>
 
       <div class="product-grid">
         <article class="product-card osu">
           <div class="card-top"><span class="product-icon">osu!</span><span class="release-chip" id="osu-status">Latest release</span></div>
           <h3>osu!StreamDeck</h3>
-          <p class="tagline">Twitch requests, live overlays and ranked tools for osu!stable and osu!lazer.</p>
-          <p class="description">Manage viewer beatmap requests while keeping now-playing information, skin commands, a customizable Key Visualizer and live Ranked Play information in the same application.</p>
+          <p class="tagline">This used to literally just be osu! Requests. Then I kept adding shit.</p>
+          <p class="description">It started as a way to handle Twitch beatmap requests without making my stream setup more annoying than it already was. Now it also does OBS overlays, key/BPM visualization, skin commands, Ranked Play stuff, and whatever else I decide it apparently needs next.</p>
           <ul class="feature-list">
-            <li>Twitch request queue, review mode, filters, <strong>!np</strong> and viewer <strong>!myq</strong></li>
-            <li>Current Map, Compact Queue and Requests Open OBS Browser Sources</li>
-            <li>60 FPS Key Visualizer with TOTAL, live BPM / MAX BPM and flexible layouts</li>
-            <li>Dual-client <strong>!skin</strong> detection with editable display names and links</li>
-            <li>Ranked Play profile stats, transparent mode and fast live refresh through the relay</li>
-            <li>Background update checks with a non-focus-stealing toast, custom chime and reliable Save As download flow</li>
+            <li>Twitch beatmap requests, queue controls, filters, <strong>!np</strong> and <strong>!myq</strong></li>
+            <li>OBS overlays for your current map, queue and request status</li>
+            <li>60 FPS Key Visualizer with TOTAL, live BPM and MAX BPM</li>
+            <li><strong>!skin</strong> support for both osu!stable and osu!lazer</li>
+            <li>Ranked Play profile info and live updates</li>
+            <li>Automatic update checks because manually checking GitHub gets old fast</li>
           </ul>
           <div class="card-actions">
-            <a class="button button-primary" id="osu-download" href="https://github.com/ValoCookie/osu-Requests/releases" target="_blank" rel="noreferrer">Download latest</a>
-            <a class="text-link" href="/osu-requests/">Learn more →</a>
+            <a class="button button-primary" id="osu-download" href="https://github.com/ValoCookie/osu-Requests/releases" target="_blank" rel="noreferrer">Download it</a>
+            <a class="text-link" href="/osu-requests/">what the hell does it do →</a>
           </div>
         </article>
 
         <article class="product-card flight">
           <div class="card-top"><span class="product-icon word-icon">FLIGHT</span><span class="release-chip" id="flight-status">Latest release</span></div>
           <h3>StreamFlight</h3>
-          <p class="tagline">A repeatable application, website and checklist workspace.</p>
-          <p class="description">Prepare applications, browser tools and recurring checks before chat becomes the first person to tell you something is wrong.</p>
+          <p class="tagline">Because apparently remembering my own pre-stream setup was asking too much.</p>
+          <p class="description">StreamFlight opens the apps and websites I need, keeps my usual checks in one place, and generally stops me from getting five minutes into stream before realizing I forgot something dumb.</p>
           <ul class="feature-list">
-            <li>Ordered application startup with optional delays</li>
-            <li>Background helpers with hide and access hotkeys</li>
-            <li>Website launcher and reusable stream checklists</li>
-            <li>Profiles for different games, events or formats</li>
-            <li>Readiness status and end-of-session cleanup</li>
-            <li>A dedicated App Startup workspace</li>
+            <li>Launch apps in the order you actually want them</li>
+            <li>Optional delays for apps that need a second to exist</li>
+            <li>Websites and reusable checklists</li>
+            <li>Different profiles for different games or setups</li>
+            <li>Readiness tracking so you can see what you forgot</li>
+            <li>Cleanup tools for when stream is finally over</li>
           </ul>
           <div class="card-actions">
-            <a class="button button-primary" id="flight-download" href="https://github.com/ValoCookie/streamflight/releases" target="_blank" rel="noreferrer">Download latest</a>
-            <a class="text-link" href="/streamflight/">Learn more →</a>
+            <a class="button button-primary" id="flight-download" href="https://github.com/ValoCookie/streamflight/releases" target="_blank" rel="noreferrer">Download it</a>
+            <a class="text-link" href="/streamflight/">see more →</a>
           </div>
         </article>
       </div>
     </section>
 
     <section class="band shell">
-      <div><div class="eyebrow">Releases</div><h2>Download the latest version directly from GitHub.</h2></div>
-      <p>Each app is distributed through its official ValoCookie GitHub repository. The buttons above use the current release asset when available and fall back safely to the Releases page if GitHub cannot be queried.</p>
+      <div><div class="eyebrow">downloads</div><h2>Yeah, they're on GitHub.</h2></div>
+      <p>The buttons here point to the newest public builds automatically. No account, launcher or seven-step installer ritual required.</p>
     </section>
 
     <section class="section shell compact-section">
-      <div class="notice"><strong>Windows download note:</strong> unsigned builds may trigger a Windows reputation warning. Only download from the official ValoCookie links on this site, and never disable Windows security just to install an app.</div>
+      <div class="notice"><strong>tiny Windows moment:</strong> the apps are currently unsigned, so Windows can occasionally decide they're suspicious purely because it has never seen that build before. Grab them from this site or my official GitHub repos and nowhere else.</div>
     </section>
   </main>
 
@@ -105,6 +102,7 @@
     <div><strong>ValoCookie</strong><span>Built with caffeine, questionable decisions &amp; way too much debugging.</span><span>© <span data-year>2026</span> ValoCookie. All rights reserved.</span></div>
     <div class="footer-links"><a href="https://github.com/ValoCookie/osu-Requests" target="_blank" rel="noreferrer">osu!StreamDeck</a><a href="https://github.com/ValoCookie/streamflight" target="_blank" rel="noreferrer">StreamFlight</a></div>
   </footer>
+
   <script src="/script.js?v=3.4-auto-releases" defer></script>
 </body>
 </html>
