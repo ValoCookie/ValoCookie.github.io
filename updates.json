@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-30T01:52:28.944347Z",
+  "generated_at": "2026-08-30T01:57:59.256840Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,10 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.0",
       "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.0/osuStreamDeck.exe",
       "notes": [
-        "Minor Changes To UI And Overlay"
+        "Some UI And Overlay Changes"
       ],
       "mandatory": true,
-      "published_at": "2026-08-30T01:52:28.944347Z"
+      "published_at": "2026-08-30T01:57:59.256840Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
