@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-28T22:17:42.750715Z",
+  "generated_at": "2026-08-30T01:52:28.944347Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.1.9",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.1.9",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.1.9/osuStreamDeck.exe",
+      "version": "2.2.0",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.0",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.0/osuStreamDeck.exe",
       "notes": [
-        "Updater Fix (idk if it will work) cat had too much katnip again"
+        "Minor Changes To UI And Overlay"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-28T22:17:42.750715Z"
+      "mandatory": true,
+      "published_at": "2026-08-30T01:52:28.944347Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
