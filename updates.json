@@ -1,17 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-02T00:04:43.816823Z",
+  "generated_at": "2026-09-12T01:07:15.772729Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.2.1",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.1",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.1/osuStreamDeck.exe",
+      "version": "2.2.2",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.2",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.2/osuStreamDeck.exe",
       "notes": [
-        "minor fixes regarding queue limit reset"
+        "performance updates",
+        "other updates",
+        "idk what i did",
+        "glhf"
       ],
       "mandatory": true,
-      "published_at": "2026-09-02T00:04:43.816823Z"
+      "published_at": "2026-09-12T01:07:15.772729Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
