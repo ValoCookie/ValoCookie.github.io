@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-12T18:47:53.243091Z",
+  "generated_at": "2026-09-12T20:25:27.814223Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.2.3",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.3",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.3/osuStreamDeck.exe",
+      "version": "2.2.4",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.4",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.4/osuStreamDeck.exe",
       "notes": [
-        "commands respond faster, osu pfp should show up more frequently and theres a easter egg"
+        "Performance fixes, command delay fixes, UI more fitable for multiple monitor sizes, easter egg still there"
       ],
       "mandatory": true,
-      "published_at": "2026-09-12T18:47:53.243091Z"
+      "published_at": "2026-09-12T20:25:27.814223Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
