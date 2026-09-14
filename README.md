@@ -4,7 +4,7 @@ This is the repo for my website and the stuff I make.
 
 🌐 https://valocookie.github.io/
 
-## osu!StreamDeck — v2.2.5
+## osu!StreamDeck — v2.2.6
 
 This started as a Twitch beatmap request manager for osu! and then I kept adding things to it.
 
