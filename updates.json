@@ -1,21 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-12T20:45:40.803003Z",
+  "generated_at": "2026-09-14T19:52:53.916698Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.2.5",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.5",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.5/osuStreamDeck.exe",
+      "version": "2.2.6",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.6",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.6/osuStreamDeck.exe",
       "notes": [
-        "Im Dumb",
-        "Performance Fixes",
-        "UI Flexibility For Different Resolutions",
-        "Command Relay Speed Increase",
-        "Easter Egg"
+        "Bringing back",
+        "Profile Stats (Requested by SnowySyndicat)",
+        "Ranked Play",
+        "and fixes to pfp"
       ],
       "mandatory": true,
-      "published_at": "2026-09-12T20:45:40.803003Z"
+      "published_at": "2026-09-14T19:52:53.916698Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
