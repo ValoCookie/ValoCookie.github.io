@@ -1,20 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-14T19:52:53.916698Z",
+  "generated_at": "2026-09-16T23:03:33.112795Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "2.2.6",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.6",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.6/osuStreamDeck.exe",
+      "version": "2.2.7",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.7",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.7/osuStreamDeck.exe",
       "notes": [
-        "Bringing back",
-        "Profile Stats (Requested by SnowySyndicat)",
-        "Ranked Play",
-        "and fixes to pfp"
+        "hopefully a fix to the rate limit"
       ],
       "mandatory": true,
-      "published_at": "2026-09-14T19:52:53.916698Z"
+      "published_at": "2026-09-16T23:03:33.112795Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
