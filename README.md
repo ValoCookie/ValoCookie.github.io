@@ -10,7 +10,7 @@ This started as a Twitch beatmap request manager for osu! and then I kept adding
 
 It now has requests, OBS overlays, a key/BPM visualizer, `!skin`, `!np`, profile stats, Ranked Play stuff and support for both osu!stable and osu!lazer.
 
-- Website: https://valocookie.github.io/osu-requests/
+- Website: https://valocookie.github.io/osustreamdeck/
 - Repository: https://github.com/ValoCookie/osu-Requests
 - Releases: https://github.com/ValoCookie/osu-Requests/releases
 
