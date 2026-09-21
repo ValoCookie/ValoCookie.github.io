@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-18T21:30:32.130176Z",
+  "generated_at": "2026-09-21T23:24:38.667354Z",
   "apps": {
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -23,6 +23,17 @@
       ],
       "mandatory": true,
       "published_at": "2026-09-18T21:30:32.130176Z"
+    },
+    "osuRequests": {
+      "display_name": "osu!StreamDeck",
+      "version": "3.0.1",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.1",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.1/osuStreamDeck.exe",
+      "notes": [
+        "microsoft relay delay overlay its too late"
+      ],
+      "mandatory": true,
+      "published_at": "2026-09-21T23:24:38.667354Z"
     }
   }
 }
