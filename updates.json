@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-21T23:24:38.667354Z",
+  "generated_at": "2026-09-23T10:23:34.535101Z",
   "apps": {
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -26,14 +26,14 @@
     },
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "3.0.1",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.1",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.1/osuStreamDeck.exe",
+      "version": "3.0.2",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.2",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.2/osuStreamDeck.exe",
       "notes": [
-        "microsoft relay delay overlay its too late"
+        "Fixes to relay and the app not recognizing osu client, plus removed the annoying notif for updates that can pop up if ur playing a map, now it only shows during the start of the app"
       ],
       "mandatory": true,
-      "published_at": "2026-09-21T23:24:38.667354Z"
+      "published_at": "2026-09-23T10:23:34.535101Z"
     }
   }
 }
