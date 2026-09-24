@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-23T10:23:34.535101Z",
+  "generated_at": "2026-09-24T23:31:14.038849Z",
   "apps": {
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -26,14 +26,14 @@
     },
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "3.0.2",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.2",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.2/osuStreamDeck.exe",
+      "version": "3.0.3",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.3",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.3/osuStreamDeck.exe",
       "notes": [
-        "Fixes to relay and the app not recognizing osu client, plus removed the annoying notif for updates that can pop up if ur playing a map, now it only shows during the start of the app"
+        "font update cuz i forgot this doesnt go for everyone"
       ],
       "mandatory": true,
-      "published_at": "2026-09-23T10:23:34.535101Z"
+      "published_at": "2026-09-24T23:31:14.038849Z"
     }
   }
 }
