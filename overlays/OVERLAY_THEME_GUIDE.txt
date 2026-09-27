@@ -1,0 +1,86 @@
+osu!StreamDeck 2.1.1 - OVERLAY THEME PLATFORM
+===============================================
+
+QUICK START
+-----------
+1. Start osu!StreamDeck.
+2. Open OSU! OVERLAYS -> THEME STUDIO.
+3. Pick an overlay and change the visual theme.
+4. Press SAVE THEME.
+5. Refresh the OBS Browser Source if the structural style does not update immediately.
+
+LOCAL DASHBOARD
+---------------
+http://127.0.0.1:24060/overlays
+
+Friendly Browser Source routes:
+  /key-visualizer
+  /current
+  /compact
+  /status
+  /pp-counter
+  /profile-stats
+  /now-playing
+  /score-stats
+  /map-timeline
+  /ranked-tracker
+
+The older configured overlay port is still served too, so existing OBS scenes do not
+need to be rebuilt. Port 24060 is an additional friendly alias when available.
+
+KEY VISUALIZER PANEL STYLES
+----------------------------
+DEFAULT  = separate key/stat cards
+SINGLE   = one shared panel around the whole visualizer
+MINIMAL  = no background cards/borders
+
+THEME ASSETS + ADVANCED CSS
+---------------------------
+Theme files live under:
+  %APPDATA%\OsuMapRequests\overlay_themes
+
+Each overlay has a stylesheet such as:
+  keys.css
+  requests.css
+  pp.css
+  pp-graph.css
+  nowplaying.css
+  score.css
+  timeline.css
+  ranked.css
+
+These stylesheets load AFTER the built-in overlay CSS, so advanced users can override
+nearly any visual property with normal CSS. Theme files are CSS-only; osu!StreamDeck
+does not execute JavaScript from theme packs.
+
+Background images selected in Theme Studio are copied into a sandboxed local asset
+folder and are served only by the localhost overlay server.
+
+IMPORTANT
+---------
+This release changes the overlay rendering/customization layer only. Twitch Public
+Client compatibility, multiplayer/duel/Ranked Play !np resolution, key polling,
+request handling, PP calculations and Cloudflare relay behavior are retained.
+
+OSD OVERLAY BRAND SYSTEM — v2.1.4 ITERATION
+--------------------------------------------
+The built-in overlays now share a common broadcast visual language without
+copying any community counter implementation or bundled artwork.
+
+Core palette roles:
+- Purple  #9B6CFF  primary OSD / PP / general emphasis
+- Blue    #5B8FF9  combo / BPM / secondary performance
+- Green   #51C878  accuracy / positive / 300s
+- Gold    #F2C14E  stars / 100s / map emphasis
+- Cyan    #48A9C5  OD / mapper / technical map data
+- Pink    #EF5DA8  HP / mods / secondary highlight
+- Red     #EF5D6A  misses / 50s / negative state
+
+Design rules:
+- Map artwork may be used as a darkened backdrop for live map overlays.
+- Information is split into compact modules instead of one flat text row.
+- Color is functional: each category keeps a familiar role across overlays.
+- A thin multi-color spectrum rail is a recurring OSD broadcast signature.
+- PP remains the main visual focus in Compact PP, but its right-side panel,
+  stat modules and color treatment are intentionally OSD-specific.
+- Custom mode remains available for users who want to override the defaults.

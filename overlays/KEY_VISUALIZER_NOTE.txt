@@ -1,0 +1,63 @@
+v4.8 DEFENDER-SAFE INPUT BACKEND
+--------------------------------
+The Windows release no longer installs a system-wide low-level keyboard/mouse
+hook and no longer bundles pynput. The visualizer samples only the two selected
+keys plus optional M1/M2 through the existing Windows polling backend.
+
+KEY VISUALIZER — COLOR AND OBS NOTES
+=====================================
+
+Keep either osu! or osuStreamDeck visible while using the Key Visualizer overlay.
+If both applications are minimized, the visualizer may stop appearing or
+updating in OBS on some Windows setups.
+
+v1.4.8
+------
+- Every visualizer CHOOSE button opens the custom osuStreamDeck color picker.
+- The picker offers HSV dragging, HEX/RGB/HSV fields, old/new previews and recent
+  colors without opening the Windows color dialog.
+- The setting swatch and HEX field update live; Cancel restores the previous color.
+- KEY 1, KEY 2, MOUSE 1, MOUSE 2, KEY 1 TRAIL and KEY 2 TRAIL remain independent.
+- Direct HEX entries remain available and save as uppercase #RRGGBB.
+- Existing shared-trail configs continue to migrate safely.
+- Closing with unsaved changes still asks whether to leave without saving.
+
+
+v1.4.10
+------
+- Preferences now keeps SAVE, EXPORT DIAGNOSTICS and CANCEL in a fixed footer.
+- Only the Preferences settings body scrolls, matching the Key Visualizer and
+  Ranked Play Tracker window layout.
+
+
+v1.4.16
+------
+- Adds a live BPM card next to TOTAL.
+- BPM uses measured recent input intervals and has no configured maximum value.
+- Adds Horizontal/Vertical overlay layout choices.
+- Adds Up/Left/Right trail directions for horizontal or vertical OBS compositions.
+
+v1.4.17
+-------
+- BPM is now calculated per selected input and then summed. This preserves the
+  normal alternating-key stream rate while also counting simultaneous buttons
+  independently (for example, two 160 BPM button streams display ~320 BPM).
+- The speed card automatically switches between live BPM and MAX BPM. MAX BPM
+  only advances after at least a short, timing-consistent stream, so a random
+  double-tap/spike cannot become the record.
+- There is still no configured BPM ceiling; 400+ BPM input remains measurable.
+
+v1.8.1
+------
+- The selected-input poller now targets 500 Hz instead of 120 Hz and requests
+  1 ms Windows timer resolution while active. This reduces timestamp quantisation
+  and makes very fast press/release edges much less likely to be missed.
+- A supplemental GetAsyncKeyState pressed-since-last-check signal can recover a
+  complete very short tap that occurred between two polling samples.
+- Live BPM is now derived from the merged physical key-down timeline rather than
+  adding independent per-key median rates. This is more accurate for single-key,
+  alternating, and uneven-alternation tapping.
+- Near-simultaneous K1/K2 chords (<=12 ms) count separately in the key counters,
+  but collapse to one cadence instant for BPM so a chord does not fake double speed.
+- A robust median/MAD filter rejects isolated pause/double-edge timing outliers.
+- This v1.8.1 method supersedes the older v1.4.17 per-key-summed BPM method above.

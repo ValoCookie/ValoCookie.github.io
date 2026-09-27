@@ -1,39 +1,32 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-24T23:57:57.082575Z",
+  "generated_at": "2026-08-31T00:00:00Z",
   "apps": {
-    "streamFlight": {
-      "display_name": "StreamFlight",
-      "version": "1.3.1",
-      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.1",
-      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.1/StreamPreflight.exe",
-      "notes": [
-        "Improved window positioning, startup behavior, and general UI polish"
-      ],
-      "mandatory": true,
-      "published_at": "2026-08-24T10:33:28.117953Z"
-    },
-    "osuStreamDeck": {
-      "display_name": "osu!StreamDeck",
-      "version": "3.0.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.0/osuStreamDeck.exe",
-      "notes": [
-        "my b i broke shit"
-      ],
-      "mandatory": true,
-      "published_at": "2026-09-18T21:30:32.130176Z"
-    },
     "osuRequests": {
       "display_name": "osu!StreamDeck",
       "version": "3.0.4",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.4",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.4/osuStreamDeck.exe",
+      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.1",
+      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.1/osuStreamDeck.exe",
       "notes": [
-        "font update for overlays"
+        "OBS dock integration is now included",
+        "osu!StreamDeck can start quietly in the background when OBS needs it",
+        "The normal desktop app is still there for Twitch, osu! setup and full settings"
       ],
-      "mandatory": true,
-      "published_at": "2026-09-24T23:57:57.082575Z"
+      "mandatory": false,
+      "published_at": "2026-08-31T00:00:00Z"
+    },
+    "streamFlight": {
+      "display_name": "StreamFlight",
+      "version": "1.3.2",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.1",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.1/StreamPreflight.exe",
+      "notes": [
+        "Patreon authorization now survives normal app updates",
+        "Shares the same persistent Patreon link with osu!StreamDeck",
+        "Existing pre-stream workflow and supporter presentation preserved"
+      ],
+      "mandatory": false,
+      "published_at": "2026-08-23T20:45:00Z"
     }
   }
 }

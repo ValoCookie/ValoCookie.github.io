@@ -1,0 +1,21 @@
+osu!StreamDeck v1.8.2 - !skin detection
+
+The current-skin resolver was rebuilt after v1.6.9 could still return a false
+"couldn't detect" response on some osu!lazer installations.
+
+Resolution order:
+1. Managed/local tosu `/json/v2` explicit `settings.skin.name`.
+2. Legacy tosu `/json` `settings.folders.skin`.
+3. Conservative skin-related fields elsewhere in either JSON schema.
+4. Lazer game.ini/osu!.ini selected SkinInfo GUID across default, moved, portable,
+   and shallow wrapper layouts.
+5. Built-in GUID names / exact local metadata / logs / Realm / per-GUID override.
+6. Recent live last-known-good cache for short telemetry gaps.
+7. If the GUID is real but the display name is unavailable: `Custom skin (xxxxxxxx)`.
+
+A live snapshot no longer needs Windows process-path discovery to succeed. If
+Preferences only shows osu!lazer, an otherwise unlabelled live skin is treated as
+lazer. This is specifically meant to prevent the false negative seen in Twitch.
+
+Run tools\diagnostics\CHECK_SKIN_DETECTION.bat only if a machine still reproduces a failure; it
+creates SKIN_DETECTION_DIAGNOSTIC.txt beside the script for debugging.

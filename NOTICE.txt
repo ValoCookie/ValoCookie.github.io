@@ -10,5 +10,5 @@ osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is independent and 
 
 Third-party telemetry
 ---------------------
-osu!StreamDeck can use the independently developed tosu project as a separate local telemetry runtime. tosu is not authored by ValoCookie and is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0). Current pinned integration version: tosu v4.25.1. Upstream project and corresponding source: https://github.com/tosuapp/tosu/tree/v4.25.1
+osu!StreamDeck can use the independently developed tosu project as a separate local telemetry runtime. tosu is not authored by ValoCookie and is licensed under the GNU Lesser General Public License v3.0 (LGPL-3.0). Current pinned integration version: tosu v4.26.0. Upstream project and corresponding source: https://github.com/tosuapp/tosu/tree/v4.26.0
 

@@ -1,0 +1,13 @@
+osu!StreamDeck supported OBS overlays
+==================================
+
+Current supported Browser Source overlays:
+- Key Overlay
+- Current Map
+- Compact Queue
+- Map Requests Open
+- PP Counter
+- Now Playing
+
+Standalone Score Stats, Map Timeline, Profile Stats and Ranked Tracker routes/editors were
+retired and removed. Score/hit-count components remain available inside PP Counter.

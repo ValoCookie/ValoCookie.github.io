@@ -1,0 +1,24 @@
+PRIVATE DEVELOPMENT SOURCE — VALOCOOKIE
+=======================================
+
+Copyright (c) 2026 ValoCookie.
+Original Creator and Official Publisher: ValoCookie.
+All rights reserved.
+
+This development source is private and is NOT presently released under an open-source license.
+
+No permission is granted to copy, redistribute, publish, sublicense, rebrand, sell, host, or distribute modified or derivative builds of this private source without prior written permission from ValoCookie.
+
+The presence of source code in a development folder does not grant a license.
+
+Projects covered:
+- osu!StreamDeck
+- StreamFlight
+
+ValoCookie is the Original Creator and Official Publisher of these projects. A third party may not represent a copied, modified, recompiled, or derivative build as an official ValoCookie release without explicit written permission.
+
+If either project is later released as open source, that public release will carry its own explicit license. Until then, this private development source remains All Rights Reserved.
+
+Planned future direction: GPL-3.0-only with lawful attribution/origin/modified-version/branding terms permitted by GPLv3 Section 7. This planned license is NOT active on this private source.
+
+osu! and related marks belong to ppy Pty Ltd. These projects are independent and are not represented as official ppy products.

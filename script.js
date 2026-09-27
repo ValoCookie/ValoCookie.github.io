@@ -2,12 +2,12 @@
 
 const projects = [
   {
-    key: "osuStreamDeck",
-    repo: "ValoCookie/osuStreamDeck",
-    exactAsset: /^(?:osuStreamDeck|OsuStreamDeck)\.exe$/i,
+    key: "osuRequests",
+    repo: "ValoCookie/osu-Requests",
+    exactAsset: /^(?:osuStreamDeck|OsuRequests)\.exe$/i,
     statusIds: ["osu-status", "osu-status-detail"],
     buttonIds: ["osu-download", "osu-download-detail"],
-    fallback: "https://github.com/ValoCookie/osuStreamDeck/releases"
+    fallback: "https://github.com/ValoCookie/osu-Requests/releases"
   },
   {
     key: "streamFlight",
@@ -108,11 +108,10 @@ async function loadGitHubRelease(project) {
 
     const release = await response.json();
     const asset = preferredAsset(project, release);
-    if (!asset) return null;
     return {
       version: release.tag_name || release.name || "",
       releaseUrl: release.html_url || project.fallback,
-      downloadUrl: asset.browser_download_url
+      downloadUrl: asset?.browser_download_url || release.html_url || project.fallback
     };
   } catch {
     return null;

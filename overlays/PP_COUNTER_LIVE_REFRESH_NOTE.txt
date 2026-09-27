@@ -1,0 +1,20 @@
+osu!StreamDeck PP Counter — live refresh behavior (workspace v5.60)
+
+The PP Counter uses tosu's local telemetry. Map identity/background remains tied to
+OSD's websocket/current-map state, while the PP overlay can take its fast-changing
+play counters from a fresh localhost tosu JSON snapshot for the same beatmap.
+
+Why this split exists:
+- websocket/current-map state prevents one-map-behind artwork flashes;
+- fresh localhost counters prevent a nonzero websocket PP value from remaining frozen;
+- explicit map-ID mismatches are rejected before live fallback data is used.
+
+Compact PP behavior:
+- current PP is real live PP only; it does not substitute MAX PP;
+- MAX PP remains its separate value;
+- live PP appears with a short panel pop when gameplay starts;
+- later PP changes use a small value bump so movement reads clearly without changing
+  the established OSD compact layout.
+
+The PP browser source asks OSD for data every 50 ms. Local tosu HTTP timeouts remain
+very small, and map identity is never replaced by the fallback counter snapshot.

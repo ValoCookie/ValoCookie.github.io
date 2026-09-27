@@ -1,0 +1,34 @@
+osuStreamDeck managed tosu single-instance guard
+===============================================
+
+Why this exists
+---------------
+Upstream tosu.exe identifies itself in Windows Task Manager with the file
+description "osu! memory reader, built in typescript". If an old managed tosu
+process survived an abnormal exit, earlier osuStreamDeck builds could leave that
+orphan in Task Manager whenever another tosu instance was still healthy on port
+24050. Repeated abnormal exits could therefore accumulate multiple rows.
+
+Current guard
+-------------
+The managed runtime now:
+
+1. serializes startup with a named Windows mutex;
+2. discovers every tosu.exe whose executable path is under
+   %LOCALAPPDATA%\ValoCookie\osuStreamDeck\tosu-runtime;
+3. asks Windows which PID actually owns the LISTENING socket on port 24050;
+4. keeps that listener and terminates only redundant ValoCookie-managed copies;
+5. if a separately installed/user-started tosu owns port 24050, removes all
+   redundant ValoCookie-managed copies and reuses the external server;
+6. repeats this conservative check in a lightweight background guard while
+   osuStreamDeck is running;
+7. still avoids touching tosu.exe outside ValoCookie's managed runtime tree.
+
+The guard deliberately does nothing if it cannot identify the listener PID. It
+never guesses which healthy process should be terminated.
+
+One-time manual reset
+---------------------
+If a machine already has a pile of managed tosu processes from an older build,
+close osuStreamDeck and run tools\maintenance\RESET_MANAGED_TOSU.bat. The next launch recreates the
+verified pinned runtime automatically.

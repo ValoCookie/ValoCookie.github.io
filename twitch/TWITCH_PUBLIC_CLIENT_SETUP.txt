@@ -1,0 +1,53 @@
+TWITCH PUBLIC CLIENT SETUP — IMPORTANT
+======================================
+
+Why this exists
+---------------
+The existing Twitch Client ID used by older osu!StreamDeck builds belongs to a
+Confidential Twitch application.
+
+Twitch currently allows Device Code Flow login for both Public and Confidential
+applications, which is why the initial login works. However, a Confidential app
+requires its CLIENT SECRET when exchanging a refresh token.
+
+osu!StreamDeck is a distributed Windows desktop application. A client secret
+MUST NOT be embedded in the EXE, source bundle, BAT file, or public repository.
+
+Therefore the clean long-session solution is a Twitch application created as:
+    Client Type: PUBLIC
+
+Twitch explicitly recommends Public for open platforms such as Windows.
+
+One-time setup
+--------------
+1. Open the Twitch Developer Console:
+   https://dev.twitch.tv/console/apps
+
+2. Register a NEW application.
+   IMPORTANT: Twitch does not currently allow changing an existing application's
+   Client Type after creation.
+
+3. Choose Client Type: PUBLIC.
+   Use your normal osu!StreamDeck app name/category details.
+
+4. Copy the NEW Client ID.
+
+5. Open TWITCH_CLIENT_ID.txt beside osu!StreamDeck and replace the one line with
+   the new Client ID. Do NOT paste a Client Secret. Public apps do not have one.
+
+6. Start osu!StreamDeck and reconnect Twitch once.
+
+After that
+----------
+Device Code Flow refresh tokens from the Public application can be refreshed by
+the desktop client without a client secret. osu!StreamDeck already serializes
+refresh operations and saves Twitch's rotated replacement refresh token.
+
+Compatibility
+-------------
+v1.9.0 no longer refuses the INITIAL Twitch connection when the legacy
+Confidential Client ID is used. That fixes the v1.9.0 immediate-login regression.
+
+But the legacy Confidential application still cannot refresh after its access
+token expires without exposing a client secret. Use a Public Client ID for the
+permanent unattended long-session fix.

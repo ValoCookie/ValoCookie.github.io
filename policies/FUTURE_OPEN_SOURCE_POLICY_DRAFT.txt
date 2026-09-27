@@ -1,0 +1,22 @@
+FUTURE OPEN-SOURCE POLICY — DRAFT INTENT
+========================================
+
+Owner / project origin: ValoCookie
+Public credit: Original Creator and Official Publisher: ValoCookie
+Projects: osu!StreamDeck; StreamFlight
+
+This is a planning document only. It is NOT a license grant.
+
+If/when a project becomes public open source, intended model:
+1. GPL-3.0-only for the public source release.
+2. Preserve appropriate copyright notices identifying Copyright (c) 2026 ValoCookie and Original Creator: ValoCookie.
+3. Distributed modified versions must clearly state that they are modified and must not misrepresent themselves as the original project.
+4. GPL rights to code do not grant permission to claim ValoCookie endorsement or call a fork an Official ValoCookie Release.
+5. ValoCookie name, logos, artwork, and official-release identity are handled separately from the GPL code license.
+6. Any additional GPLv3 Section 7 terms must stay within GPLv3, including reasonable author attribution, origin marking, requiring modified versions to be marked as different, and declining trademark rights.
+7. Free provenance measures: official GitHub repo/account, protected main branch, CODEOWNERS, signed tags/commits where practical, SHA-256 checksums, and GitHub artifact attestations where practical.
+8. Substantial external contributions require agreed contributor terms BEFORE merge. If one copyright owner is important, obtain legal review for a copyright-assignment agreement.
+9. Never publish OAuth client secrets, access/refresh tokens, Cloudflare secrets, encryption/admin keys, private .env files, personal config, or private diagnostics/session data.
+10. Public repos should include NOTICE, branding/trademark policy, SECURITY, CONTRIBUTING, and official-release verification instructions.
+
+Open source cannot mean nobody may redistribute a fork. GPL permits forks. The protection is license compliance, preserved notices, marked modifications, corresponding source obligations, and separation from the official ValoCookie release identity.

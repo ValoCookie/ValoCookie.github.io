@@ -1,0 +1,15 @@
+OFFICIAL VALOCOOKIE RELEASE POLICY
+==================================
+
+ValoCookie is the Original Creator and Official Publisher of osu!StreamDeck and StreamFlight.
+
+An Official ValoCookie Release is a release intentionally published by ValoCookie through a distribution location designated by ValoCookie. A modified, rebuilt, forked, mirrored, or derivative version published by another person is not an Official ValoCookie Release unless ValoCookie explicitly authorizes that designation.
+
+Recommended free authenticity measures for future public releases:
+- official ValoCookie GitHub account/repository
+- SHA-256 checksums alongside release artifacts
+- signed Git tags/commits with ValoCookie's verified Git identity where practical
+- GitHub branch protection and CODEOWNERS
+- GitHub artifact attestations for CI-built artifacts
+
+Paid Windows Authenticode/code signing can be added later if project scale justifies the recurring cost.

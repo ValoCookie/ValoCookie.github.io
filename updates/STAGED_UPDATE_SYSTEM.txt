@@ -1,0 +1,19 @@
+STAGED UPDATE SYSTEM — osu!StreamDeck 2.1.1
+=========================================
+
+User flow
+---------
+1. OSD finds a newer public release.
+2. User presses UPDATE NOW.
+3. OSD copies its bundled ValoCookieUpdater.exe to the temp folder and starts it.
+4. OSD closes.
+5. The updater downloads the official direct GitHub EXE over HTTPS.
+6. The updater validates that the payload is a Windows PE executable.
+7. The old EXE is backed up, replaced, and the new OSD is launched.
+8. If replacement/relaunch fails, the updater rolls back the backup.
+
+No administrator prompt is required unless the user put OSD in a directory their Windows account cannot write to.
+
+Local test
+----------
+After BUILD_EXE.bat succeeds, run tools\maintenance\TEST_LOCAL_UPDATER.bat. It uses copies in _LOCAL_UPDATE_TEST and never overwrites the real built EXE.

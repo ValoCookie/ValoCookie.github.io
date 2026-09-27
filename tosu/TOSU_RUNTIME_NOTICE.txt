@@ -1,0 +1,58 @@
+osu!StreamDeck third-party live telemetry runtime
+==================================================
+
+osu!StreamDeck can bundle an UNMODIFIED official tosu Windows runtime as a
+separately launched local process. It provides stable/lazer current-map and
+gameplay telemetry through tosu's localhost WebSocket/JSON API.
+
+Pinned upstream runtime: tosu v4.26.0
+Upstream project: https://github.com/tosuapp/tosu
+Exact corresponding source: https://github.com/tosuapp/tosu/tree/v4.26.0
+Official release: https://github.com/tosuapp/tosu/releases/tag/v4.26.0
+License: GNU Lesser General Public License v3.0 (LGPL-3.0)
+Upstream copyright: Copyright (C) 2023-2026 Mikhail Babynichev <https://kotrik.ru/>
+
+ValoCookie does not claim authorship of tosu.
+
+BUILD VERIFICATION
+------------------
+BUILD_EXE.bat runs PREPARE_TOSU_RUNTIME.py before PyInstaller. That script:
+  * downloads the official tosu-windows-v4.26.0.zip release asset;
+  * verifies SHA-256:
+      3562802792ff1c56abe97563458d8005003040c1a7ed91f72f092174e06a5725
+  * downloads/preserves the upstream LGPL license;
+  * preserves the GNU GPL v3 text incorporated by LGPL-3.0;
+  * keeps the upstream binary unmodified;
+  * writes an exact upstream source/release notice beside the runtime.
+
+RUNTIME LOCATION
+----------------
+At runtime the separate engine is copied into:
+  %LOCALAPPDATA%\ValoCookie\osuStreamDeck\tosu-runtime\v4.26.0
+
+The persistent location is used because upstream tosu is not intended to run
+directly from a transient archive/PyInstaller extraction path. osu!StreamDeck
+writes a separate tosu.env configuration file, starts the executable without a
+console window, disables upstream auto-update/dashboard-on-startup for the managed
+copy, and consumes the localhost API at 127.0.0.1:24050.
+
+If a compatible separately installed/user-started tosu server already owns that
+port, osu!StreamDeck reuses it rather than replacing it.
+
+SINGLE-INSTANCE GUARD
+---------------------
+Task Manager displays upstream tosu.exe using its file description,
+"osu! memory reader, built in typescript". Older managed builds could leave
+redundant copies alive after abnormal exits. The current runtime manager asks
+Windows which PID owns the LISTENING socket on port 24050 and removes only other
+tosu.exe copies under ValoCookie's managed runtime directory. It never targets a
+separately installed tosu path. See TOSU_PROCESS_GUARD_NOTE.txt.
+
+LICENSE COPIES
+--------------
+The development/release materials include:
+  THIRD_PARTY_LICENSES\tosu-LGPL-3.0-v4.26.0.txt
+  THIRD_PARTY_LICENSES\GNU-GPL-3.0.txt
+
+Keep the prominent third-party notice, those license texts, and the exact source
+link with any public release that redistributes the tosu runtime.

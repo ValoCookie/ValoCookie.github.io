@@ -1,0 +1,14 @@
+osuStreamDeck update system — v1.5.25 direct-EXE workflow
+
+UPDATE NOW:
+1. Checks the normal ValoCookie update manifest/release information.
+2. Shows the existing update UI/toast when a newer version is available.
+3. Opens the official direct EXE/release download in the user's default browser.
+4. Does not run an installer and does not silently replace the running executable.
+
+WINDOWS PACKAGING:
+- BUILD_EXE.bat produces dist\osuStreamDeck.exe as one standalone PyInstaller ONEFILE executable.
+- The build fetches and SHA-256 verifies the pinned official tosu Windows runtime, then embeds its complete runtime directory as data inside that EXE.
+- On first use, osuStreamDeck copies that embedded runtime to LocalAppData and starts it hidden because upstream tosu is designed to run from a normal extracted folder rather than a temporary archive path.
+- Users still send/download only osuStreamDeck.exe; there is no Setup.exe, installer folder, ONEDIR _internal folder, or separate tosu install in the normal workflow.
+- UPX is disabled; Windows 10/11 compatibility metadata stays embedded.

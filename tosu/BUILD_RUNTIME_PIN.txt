@@ -1,0 +1,7 @@
+ValoCookie Windows release build baseline
+========================================
+Python: 3.12.x 64-bit (required by BUILD_*.bat)
+PyInstaller: 6.22.0 (pinned by BUILD_*.bat)
+Packaging: ONEFILE/direct EXE, UPX disabled
+Manifest: windows_10_11.manifest, asInvoker, Windows 10/11 supportedOS
+Target: Windows 10 x64 and Windows 11 x64
