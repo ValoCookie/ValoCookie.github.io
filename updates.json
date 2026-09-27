@@ -1,19 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-31T00:00:00Z",
+  "generated_at": "2026-09-27T14:14:16.543762Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "3.0.4",
-      "release_url": "https://github.com/ValoCookie/osu-Requests/releases/tag/v2.2.1",
-      "download_url": "https://github.com/ValoCookie/osu-Requests/releases/download/v2.2.1/osuStreamDeck.exe",
+      "version": "3.0.5",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.5",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.5/osuStreamDeck.exe",
       "notes": [
-        "OBS dock integration is now included",
-        "osu!StreamDeck can start quietly in the background when OBS needs it",
-        "The normal desktop app is still there for Twitch, osu! setup and full settings"
+        "font change",
+        "relay change",
+        "performance update",
+        "plez update"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-31T00:00:00Z"
+      "mandatory": true,
+      "published_at": "2026-09-27T14:14:16.543762Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
