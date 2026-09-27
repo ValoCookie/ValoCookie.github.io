@@ -14,7 +14,7 @@ Windows Twitch → osu! request manager and stream-side toolkit for osu!stable a
 - Repository: https://github.com/ValoCookie/osu-Requests
 - Releases: https://github.com/ValoCookie/osu-Requests/releases
 
-## StreamFlight — v1.3.2
+## StreamFlight — v1.3.3
 Windows pre-stream workspace with ordered application startup, websites, reusable draggable checklists, profiles, readiness status and background update notifications.
 
 - Website: https://valocookie.github.io/streamflight/
