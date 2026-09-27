@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-27T14:14:16.543762Z",
+  "generated_at": "2026-09-27T14:14:56.454547Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -18,16 +18,17 @@
     },
     "streamFlight": {
       "display_name": "StreamFlight",
-      "version": "1.3.2",
-      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.1",
-      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.1/StreamPreflight.exe",
+      "version": "1.3.3",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.3",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.3/StreamPreflight.exe",
       "notes": [
-        "Patreon authorization now survives normal app updates",
-        "Shares the same persistent Patreon link with osu!StreamDeck",
-        "Existing pre-stream workflow and supporter presentation preserved"
+        "font change",
+        "performance update",
+        "finally looking into this too",
+        "plez update"
       ],
-      "mandatory": false,
-      "published_at": "2026-08-23T20:45:00Z"
+      "mandatory": true,
+      "published_at": "2026-09-27T14:14:56.454547Z"
     }
   }
 }
