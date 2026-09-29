@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-29T21:01:03.175200Z",
+  "generated_at": "2026-09-29T21:22:56.316288Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,10 +8,13 @@
       "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.6",
       "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.6/osuStreamDeck.exe",
       "notes": [
-        "i borked the fkn button"
+        "i borked the update button in version 3.0.5 and didnt notice before release, for the recent update of 3.0.6 pleases get it from the github, my apologies to everyone",
+        "features are detection for limitations when using DT or HR to pass ar/cs/hp and such when limited to lower AR's",
+        "key overlay trail now has opacity",
+        "font change in input labels to regular"
       ],
       "mandatory": false,
-      "published_at": "2026-09-29T21:01:03.175200Z"
+      "published_at": "2026-09-29T21:22:56.316288Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
