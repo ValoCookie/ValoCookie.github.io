@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-29T20:53:46.287979Z",
+  "generated_at": "2026-09-29T21:01:03.175200Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,13 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.6",
       "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.6/osuStreamDeck.exe",
       "notes": [
-        "small update:",
-        "opacity for key trails",
-        "limitation fixes for ar/cs/hp and such",
-        "font changes for input labels"
+        "i borked the fkn button"
       ],
       "mandatory": false,
-      "published_at": "2026-09-29T20:53:46.287979Z"
+      "published_at": "2026-09-29T21:01:03.175200Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
