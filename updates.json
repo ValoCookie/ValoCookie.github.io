@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-29T21:22:56.316288Z",
+  "generated_at": "2026-10-05T23:51:26.117700Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "3.0.6",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v3.0.6",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v3.0.6/osuStreamDeck.exe",
+      "version": "4.0.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.0.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.0.0/osuStreamDeck.exe",
       "notes": [
-        "i borked the update button in version 3.0.5 and didnt notice before release, for the recent update of 3.0.6 pleases get it from the github, my apologies to everyone",
-        "features are detection for limitations when using DT or HR to pass ar/cs/hp and such when limited to lower AR's",
-        "key overlay trail now has opacity",
-        "font change in input labels to regular"
+        "rate limit fixes (hopefully)",
+        "map accepted chat delay set to .2s with a 30s delay if filters are selected",
+        "font pushes on overlays and map backgrounds on multiple overlays",
+        "!np fix for more info"
       ],
-      "mandatory": false,
-      "published_at": "2026-09-29T21:22:56.316288Z"
+      "mandatory": true,
+      "published_at": "2026-10-05T23:51:26.117700Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
