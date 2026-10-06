@@ -1,20 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-06T00:29:18.736452Z",
+  "generated_at": "2026-10-06T01:19:46.332845Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.0.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.0.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.0.0/osuStreamDeck.exe",
+      "version": "4.1.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.1.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.1.0/osuStreamDeck.exe",
       "notes": [
-        "rate limit fixes (hopefully)",
-        "map accepted chat delay set to .2s with a 30s delay if filters are selected",
-        "font pushes on overlays and map backgrounds on multiple overlays",
-        "!np fix for more info"
+        "overlay fixes lul"
       ],
       "mandatory": true,
-      "published_at": "2026-10-06T00:29:18.736452Z"
+      "published_at": "2026-10-06T01:19:46.332845Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
