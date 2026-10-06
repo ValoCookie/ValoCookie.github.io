@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-05T23:51:26.117700Z",
+  "generated_at": "2026-10-06T00:29:18.736452Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -14,7 +14,7 @@
         "!np fix for more info"
       ],
       "mandatory": true,
-      "published_at": "2026-10-05T23:51:26.117700Z"
+      "published_at": "2026-10-06T00:29:18.736452Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
