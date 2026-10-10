@@ -1,17 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-06T01:19:46.332845Z",
+  "generated_at": "2026-10-10T18:31:22.142938Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.1.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.1.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.1.0/osuStreamDeck.exe",
+      "version": "4.2.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.2.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.2.0/osuStreamDeck.exe",
       "notes": [
-        "overlay fixes lul"
+        "ovelrays have map backgrounds",
+        "performacne fix"
       ],
       "mandatory": true,
-      "published_at": "2026-10-06T01:19:46.332845Z"
+      "published_at": "2026-10-10T18:31:22.142938Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
