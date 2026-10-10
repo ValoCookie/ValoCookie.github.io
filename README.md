@@ -7,7 +7,7 @@ Official GitHub Pages website for **osu!StreamDeck** and **StreamFlight**.
 ## Official publisher
 Both applications are created and officially published by **ValoCookie**.
 
-## osu!StreamDeck — v4.1.0
+## osu!StreamDeck — v4.2.0
 Windows Twitch → osu! request manager and stream-side toolkit for osu!stable and osu!lazer. Current highlights include natural mod detection, fast `!np`, customizable OBS overlays, Key Visualizer, PP Counter, Now Playing, Key Overlay and background update notifications.
 
 - Website: https://valocookie.github.io/osu-requests/
