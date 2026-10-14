@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T20:08:40.959472Z",
+  "generated_at": "2026-10-14T21:43:05.700628Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -8,10 +8,10 @@
       "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.3.0",
       "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.3.0/osuStreamDeck.exe",
       "notes": [
-        "added a *clear queue after x hours/mins* o7 - cityyy"
+        "added a *CLEAR QUEUE AFTER X TIME* if the app has been on for a while and you wont play the maps - o7 cityyy"
       ],
       "mandatory": false,
-      "published_at": "2026-10-14T20:08:40.959472Z"
+      "published_at": "2026-10-14T21:43:05.700628Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
