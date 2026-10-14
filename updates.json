@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T22:02:46.559580Z",
+  "generated_at": "2026-10-14T22:04:42.740792Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -12,7 +12,7 @@
         "added a CLEAR QUEUE AFTER x TIME if u wont play the maps left inside queue - o7 cityyy"
       ],
       "mandatory": false,
-      "published_at": "2026-10-14T22:02:46.559580Z"
+      "published_at": "2026-10-14T22:04:42.740792Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
