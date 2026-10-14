@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T21:53:45.250257Z",
+  "generated_at": "2026-10-14T21:58:06.538364Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
       "version": "4.3.0",
       "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.3.0",
       "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.3.0/osuStreamDeck.exe",
-      "sha256": "4cfbd77e4915e541ea8ba395c9ddd7c51946783f3c2d410fae7bf51e5d4c01f9",
+      "sha256": "e6a9788d398e16c80e59b145851e56db3f06f2ae5b6ffd1d3f97d76e0f450038",
       "notes": [
-        "added a *CLEAR QUEUE AFTER x TIME* if u wont play the maps left inside queue - o7 cityyy"
+        "added a CLEAR QUEUE AFTER x TIME if u wont play the maps left inside queue - o7 cityyy"
       ],
       "mandatory": false,
-      "published_at": "2026-10-14T21:53:45.248748Z"
+      "published_at": "2026-10-14T21:58:06.538364Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
