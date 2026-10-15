@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-15T01:51:06.929729Z",
+  "generated_at": "2026-10-15T22:52:57.669682Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.5.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.5.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.5.0/osuStreamDeck.exe",
-      "sha256": "90a84be2a175871fe2a70723f0008c4c55544850bb6350d1b6d9404626535882",
+      "version": "4.6.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.6.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.6.0/osuStreamDeck.exe",
+      "sha256": "55815f1325fc3a8275edf35004015328dbc7f6f0b5eb75fd1a742b25bed5c7c9",
       "notes": [
-        "change bg to transparent/color/og colors/map bg, some other things removed - o7 Syvatzia"
+        "map background overlays now have a transparent working feature (hopefully) - 07 Syvatzia"
       ],
       "mandatory": false,
-      "published_at": "2026-10-15T01:51:06.929729Z"
+      "published_at": "2026-10-15T22:52:57.669682Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
