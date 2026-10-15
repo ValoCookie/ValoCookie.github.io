@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T22:41:39.813824Z",
+  "generated_at": "2026-10-15T01:51:06.929729Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.4.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.4.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.4.0/osuStreamDeck.exe",
-      "sha256": "f447b53aff1ffeab0a06fad820429e2bb4b74f2927fe87c270ae2b4ab37b9c14",
+      "version": "4.5.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.5.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.5.0/osuStreamDeck.exe",
+      "sha256": "90a84be2a175871fe2a70723f0008c4c55544850bb6350d1b6d9404626535882",
       "notes": [
-        "added the ability to *add* more key presses to the key visualizer - o7 Syvatzia"
+        "change bg to transparent/color/og colors/map bg, some other things removed - o7 Syvatzia"
       ],
       "mandatory": false,
-      "published_at": "2026-10-14T22:41:39.813824Z"
+      "published_at": "2026-10-15T01:51:06.929729Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
