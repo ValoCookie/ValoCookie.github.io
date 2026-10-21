@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-16T18:28:55.735616Z",
+  "generated_at": "2026-10-21T21:24:24.248511Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.6.1",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.6.1",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.6.1/osuStreamDeck.exe",
-      "sha256": "0d85a8dd3c0e57e45201cb399d481368f276ee1bbd468dd2806e5f34a54f2f79",
+      "version": "4.6.2",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.6.2",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.6.2/osuStreamDeck.exe",
+      "sha256": "909566ed174df0ee5b26f8b3c63c54fd9ebc5cb72b5e2699d588a659402229b5",
       "notes": [
-        "potential fix for CMD pop up regarding tosu refresher, ty Syvatzia o7"
+        "queue closed now holds the maps inside of OSD but doesnt send them to osu chat - o7 Syvatzia"
       ],
       "mandatory": false,
-      "published_at": "2026-10-16T18:28:55.735616Z"
+      "published_at": "2026-10-21T21:24:24.248511Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
