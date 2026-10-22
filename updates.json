@@ -1,19 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-05T00:00:00Z",
+  "generated_at": "2026-10-22T21:24:53.362930Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.0.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.0.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.0.0/osuStreamDeck.exe",
+      "version": "4.6.3",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.6.3",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.6.3/osuStreamDeck.exe",
+      "sha256": "d6038d20aa3c8aa62174d39e3873c03922ba5b8743cb4c805831148bf26aba55",
       "notes": [
-        "Improved osu! chat request delivery and IRC fallback behavior",
-        "Added live PP-by-accuracy control for osu! chat requests and !np",
-        "Updated request overlays with bold styling, map backgrounds and scrolling titles"
+        "requested by Syvatzia, queue open/close basically, yell at me if this shit dies"
       ],
       "mandatory": false,
-      "published_at": "2026-10-05T00:00:00Z"
+      "published_at": "2026-10-22T21:24:53.362930Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -30,4 +29,3 @@
     }
   }
 }
-
