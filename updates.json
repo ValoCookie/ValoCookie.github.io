@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-22T21:24:53.362930Z",
+  "generated_at": "2026-10-22T21:31:11.734936Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
@@ -12,7 +12,7 @@
         "requested by Syvatzia, queue open/close basically, yell at me if this shit dies"
       ],
       "mandatory": false,
-      "published_at": "2026-10-22T21:24:53.362930Z"
+      "published_at": "2026-10-22T21:31:11.734936Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
