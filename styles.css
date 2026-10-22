@@ -1,7 +1,6 @@
 @font-face { font-family: "Torus"; src: url("/assets/Torus-Regular.otf") format("opentype"); font-style: normal; font-weight: 400; font-display: swap; }
 @font-face { font-family: "Torus"; src: url("/assets/Torus-Bold.otf") format("opentype"); font-style: normal; font-weight: 700 950; font-display: swap; }
 
-/* ValoCookie Streamer Tools — site v3.3 */
 :root {
   --bg: #0b0d14;
   --panel: #121621;
@@ -144,7 +143,6 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
   .brand-banner-logo { width:78px; height:78px; border-radius:21px; }
 }
 
-/* v2.5 ValoCookie brand identity */
 .brand-mark {
   overflow: hidden;
   padding: 0;
@@ -238,10 +236,8 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
   .brand-hero-content { text-align: center; }
 }
 
-/* Compact product wordmarks. */
-.product-icon.word-icon{font-size:10px;letter-spacing:.06em;min-width:58px;padding:0 8px}
-.app-badge .giant.wordmark{font-size:clamp(36px,5vw,62px);letter-spacing:-.04em}
-/* ValoCookie Setup card */
+.product-icon.word-icon { font-size: 10px; letter-spacing: .06em; min-width: 58px; padding: 0 8px; }
+.app-badge .giant.wordmark { font-size: clamp(36px, 5vw, 62px); letter-spacing: -.04em; }
 .installer-section { padding-top: 12px; padding-bottom: 26px; }
 .installer-card {
   position: relative;
@@ -274,3 +270,7 @@ h1 .gradient { background:linear-gradient(90deg,var(--purple-soft),var(--blue),v
 .installer-actions .text-link { text-align: center; }
 @media (max-width: 860px) { .installer-card { grid-template-columns: 1fr; gap: 22px; } .installer-actions { min-width: 0; } }
 
+
+.home-intro { padding-top: 48px; padding-bottom: 24px; }
+.home-title { margin-bottom: 0; font-size: clamp(42px, 6vw, 64px); }
+.wide-copy { max-width: 850px; }

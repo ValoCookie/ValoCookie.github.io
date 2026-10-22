@@ -7,14 +7,14 @@ Official GitHub Pages website for **osu!StreamDeck** and **StreamFlight**.
 ## Official publisher
 Both applications are created and officially published by **ValoCookie**.
 
-## osu!StreamDeck — v4.6.2
+## osu!StreamDeck — v3.0.7
 Windows Twitch → osu! request manager and stream-side toolkit for osu!stable and osu!lazer. Current highlights include natural mod detection, fast `!np`, customizable OBS overlays, Key Visualizer, PP Counter, Now Playing, Key Overlay and background update notifications.
 
 - Website: https://valocookie.github.io/osu-requests/
 - Repository: https://github.com/ValoCookie/osu-Requests
 - Releases: https://github.com/ValoCookie/osu-Requests/releases
 
-## StreamFlight — v1.3.3
+## StreamFlight — v1.3.2
 Windows pre-stream workspace with ordered application startup, websites, reusable draggable checklists, profiles, readiness status and background update notifications.
 
 - Website: https://valocookie.github.io/streamflight/
@@ -26,3 +26,5 @@ Windows pre-stream workspace with ordered application startup, websites, reusabl
 osu! and related marks belong to ppy Pty Ltd. osu!StreamDeck is an independent ValoCookie project and is not an official ppy product.
 
 Copyright © 2026 ValoCookie. All rights reserved.
+
+

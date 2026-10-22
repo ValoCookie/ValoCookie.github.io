@@ -1,32 +1,33 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-21T21:24:24.248511Z",
+  "generated_at": "2026-10-05T00:00:00Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.6.2",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.6.2",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.6.2/osuStreamDeck.exe",
-      "sha256": "909566ed174df0ee5b26f8b3c63c54fd9ebc5cb72b5e2699d588a659402229b5",
+      "version": "4.0.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.0.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.0.0/osuStreamDeck.exe",
       "notes": [
-        "queue closed now holds the maps inside of OSD but doesnt send them to osu chat - o7 Syvatzia"
+        "Improved osu! chat request delivery and IRC fallback behavior",
+        "Added live PP-by-accuracy control for osu! chat requests and !np",
+        "Updated request overlays with bold styling, map backgrounds and scrolling titles"
       ],
       "mandatory": false,
-      "published_at": "2026-10-21T21:24:24.248511Z"
+      "published_at": "2026-10-05T00:00:00Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
-      "version": "1.3.3",
-      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.3",
-      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.3/StreamPreflight.exe",
+      "version": "1.3.2",
+      "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.2",
+      "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.2/StreamPreflight.exe",
       "notes": [
-        "font change",
-        "performance update",
-        "finally looking into this too",
-        "plez update"
+        "Patreon authorization now survives normal app updates",
+        "Shares the same persistent Patreon link with osu!StreamDeck",
+        "Existing pre-stream workflow and supporter presentation preserved"
       ],
-      "mandatory": true,
-      "published_at": "2026-09-27T14:14:56.454547Z"
+      "mandatory": false,
+      "published_at": "2026-08-23T20:45:00Z"
     }
   }
 }
+
