@@ -1,20 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T02:52:23.872810Z",
+  "generated_at": "2026-11-23T18:00:00Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.7.0",
-      {
-        "version": "4.7.1",
-        "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.1/osuStreamDeck.exe",
-        "sha256": "8153240608f6e9793fb22f1010e51899c43ed1f9ae85340cbfe75877a8d19ff9"
-      }
+      "version": "4.7.1",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.7.1",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.1/osuStreamDeck.exe",
+      "sha256": "8153240608f6e9793fb22f1010e51899c43ed1f9ae85340cbfe75877a8d19ff9",
       "notes": [
-        "the current new release of the app with a lot of changes, report if anything breaks, and update to this one to get new features and faster response time"
+        "The current release includes performance, updater, and overlay improvements."
       ],
       "mandatory": true,
-      "published_at": "2026-11-23T02:52:23.872810Z"
+      "published_at": "2026-11-23T18:00:00Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
@@ -22,9 +20,7 @@
       "release_url": "https://github.com/ValoCookie/streamflight/releases/tag/v1.3.2",
       "download_url": "https://github.com/ValoCookie/streamflight/releases/download/v1.3.2/StreamPreflight.exe",
       "notes": [
-        "Patreon authorization now survives normal app updates",
-        "Shares the same persistent Patreon link with osu!StreamDeck",
-        "Existing pre-stream workflow and supporter presentation preserved"
+        "no clue"
       ],
       "mandatory": false,
       "published_at": "2026-08-23T20:45:00Z"
