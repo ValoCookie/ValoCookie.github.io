@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T18:00:00Z",
+  "generated_at": "2026-11-23T20:57:56.670550Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
       "version": "4.7.1",
       "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.7.1",
       "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.1/osuStreamDeck.exe",
-      "sha256": "8153240608f6e9793fb22f1010e51899c43ed1f9ae85340cbfe75877a8d19ff9",
+      "sha256": "6c9a62f6199267f643fa8127f8764d8199fcf1d907ea2fbdba5955d84225d265",
       "notes": [
-        "The current release includes performance, updater, and overlay improvements."
+        "more stable and cleaner version of OSD with new features"
       ],
       "mandatory": true,
-      "published_at": "2026-11-23T18:00:00Z"
+      "published_at": "2026-11-23T20:57:56.670550Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
