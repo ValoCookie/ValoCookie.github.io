@@ -5,9 +5,11 @@
     "osuRequests": {
       "display_name": "osu!StreamDeck",
       "version": "4.7.0",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.7.0",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.0/osuStreamDeck.exe",
-      "sha256": "0bd9391926932ca169b88c9eb9fa25a9dc24d71338a687451e51c290051bad58",
+      {
+        "version": "4.7.1",
+        "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.1/osuStreamDeck.exe",
+        "sha256": "8153240608f6e9793fb22f1010e51899c43ed1f9ae85340cbfe75877a8d19ff9"
+      }
       "notes": [
         "the current new release of the app with a lot of changes, report if anything breaks, and update to this one to get new features and faster response time"
       ],
