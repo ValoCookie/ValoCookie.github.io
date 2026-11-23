@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-22T21:31:11.734936Z",
+  "generated_at": "2026-11-23T02:52:23.872810Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.6.3",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.6.3",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.6.3/osuStreamDeck.exe",
-      "sha256": "d6038d20aa3c8aa62174d39e3873c03922ba5b8743cb4c805831148bf26aba55",
+      "version": "4.7.0",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.7.0",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.0/osuStreamDeck.exe",
+      "sha256": "0bd9391926932ca169b88c9eb9fa25a9dc24d71338a687451e51c290051bad58",
       "notes": [
-        "requested by Syvatzia, queue open/close basically, yell at me if this shit dies"
+        "the current new release of the app with a lot of changes, report if anything breaks, and update to this one to get new features and faster response time"
       ],
-      "mandatory": false,
-      "published_at": "2026-10-22T21:31:11.734936Z"
+      "mandatory": true,
+      "published_at": "2026-11-23T02:52:23.872810Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
