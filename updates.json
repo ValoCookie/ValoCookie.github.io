@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T20:57:56.670550Z",
+  "generated_at": "2026-11-23T23:50:13.116699Z",
   "apps": {
     "osuRequests": {
       "display_name": "osu!StreamDeck",
-      "version": "4.7.1",
-      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.7.1",
-      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.1/osuStreamDeck.exe",
-      "sha256": "6c9a62f6199267f643fa8127f8764d8199fcf1d907ea2fbdba5955d84225d265",
+      "version": "4.7.2",
+      "release_url": "https://github.com/ValoCookie/osuStreamDeck/releases/tag/v4.7.2",
+      "download_url": "https://github.com/ValoCookie/osuStreamDeck/releases/download/v4.7.2/osuStreamDeck.exe",
+      "sha256": "06469a328d5d9ae9e69ef65c77dbd19111337717b341b694005e1220f7677aef",
       "notes": [
-        "more stable and cleaner version of OSD with new features"
+        "fixed an odly specific issue where playing the gauntlet would destroy the fps of overlays"
       ],
       "mandatory": true,
-      "published_at": "2026-11-23T20:57:56.670550Z"
+      "published_at": "2026-11-23T23:50:13.116699Z"
     },
     "streamFlight": {
       "display_name": "StreamFlight",
